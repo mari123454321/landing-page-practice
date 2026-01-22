@@ -1,64 +1,20 @@
-export interface Testimonial {
-  name: string;
-  role: string;
-  content: string;
-  rating: number;
-}
+import { 
+  Shield, Zap, Lock, Globe, HeadphonesIcon, BarChart3,
+  Briefcase, LineChart, PiggyBank, Users, TrendingUp, PieChart, Award,
+  LucideIcon 
+} from "lucide-react";
 
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    name: "Sarah Johnson",
-    role: "Entrepreneur",
-    content: "Glenford has completely transformed how I manage my investments. The platform is intuitive and the returns have exceeded my expectations.",
-    rating: 5,
-  },
-  {
-    name: "Michael Chen",
-    role: "Tech Executive",
-    content: "The level of personalized service I've received from Glenford is unmatched. Their team truly understands my financial goals.",
-    rating: 5,
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Business Owner",
-    content: "After trying multiple platforms, Glenford stands out for its security, ease of use, and exceptional customer support.",
-    rating: 5,
-  },
-];
+// ==========================================
+// TYPE DEFINITIONS
+// ==========================================
 
-export const TESTIMONIALS_SECTION = {
-  badge: "TESTIMONIALS",
-  heading: "What Our Clients Say",
-  description: "Hear from investors who have achieved their financial goals with Glenford Capital.",
-};
-
-import { Users, TrendingUp, Globe, Award, LucideIcon } from "lucide-react";
-
-export interface Stat {
+export interface Feature {
   icon: LucideIcon;
-  value: string;
-  label: string;
+  title: string;
+  description: string;
 }
-
-export const STATS: Stat[] = [
-  { icon: Users, value: "50K+", label: "Active Investors" },
-  { icon: TrendingUp, value: "$2.5B", label: "Assets Managed" },
-  { icon: Globe, value: "120+", label: "Countries Served" },
-  { icon: Award, value: "99%", label: "Client Satisfaction" },
-];
-
-export const STATS_SECTION = {
-  heading: "Join Glenford and Invest with",
-  headingHighlight: "Confidence",
-  description: "Trust our proven track record and join thousands of investors who have already achieved their financial goals with Glenford Capital.",
-  ctaText: "Start Your Investment Journey",
-};
-
-
-import { Briefcase, LineChart, PiggyBank, Shield, PieChart, BarChart3,  } from "lucide-react";
 
 export interface Service {
-  icon: LucideIcon;
   label: string;
 }
 
@@ -67,15 +23,56 @@ export interface ServiceFeature {
   description: string;
 }
 
+export interface Stat {
+  icon: LucideIcon;
+  value: string;
+  label: string;
+}
+
+export interface Testimonial {
+  name: string;
+  role: string;
+  content: string;
+  rating: number;
+}
+
+export interface FooterLink {
+  href: string;
+  label: string;
+}
+
+export interface SocialLink {
+  name: string;
+  href: string;
+}
+
+// ==========================================
+// HERO SECTION
+// ==========================================
+
+export const HERO_SECTION = {
+  badge: "WELCOME TO GLENFORD",
+  headingStart: "Your Journey to Financial",
+  headingHighlight: "Freedom",
+  headingEnd: "Starts Here",
+  description: "Your journey to financial freedom starts here with Glenford. Let our expert strategies and personalized guidance help you build lasting wealth and achieve your investment goals with confidence.",
+  primaryCta: "Get Started",
+  secondaryCta: "Learn More",
+};
+
+// ==========================================
+// SERVICES SECTION
+// ==========================================
+
 export const SERVICES: Service[] = [
-  { icon: Briefcase, label: "Portfolio Management" },
-  { icon: LineChart, label: "Financial Planning" },
-  { icon: PiggyBank, label: "Retirement Solutions" },
-  { icon: Users, label: "Wealth Advisory" },
-  { icon: Shield, label: "Risk Assessment" },
-  { icon: TrendingUp, label: "Trading Consulting" },
-  { icon: PieChart, label: "Asset Allocation" },
-  { icon: BarChart3, label: "Market Insights" },
+  { label: "Portfolio Management" },
+  { label: "Financial Planning" },
+  { label: "Retirement Solutions" },
+  { label: "Wealth Advisory" },
+  { label: "Risk Assessment" },
+  { label: "Trading Consulting" },
+  { label: "Asset Allocation" },
+  { label: "Market Insights" },
 ];
 
 export const SERVICE_FEATURES: ServiceFeature[] = [
@@ -108,14 +105,9 @@ export const SERVICES_SECTION = {
   yearsLabel: "Years Experience",
 };
 
-
-import {Zap, Lock, HeadphonesIcon } from "lucide-react";
-
-export interface Feature {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-}
+// ==========================================
+// FEATURES SECTION
+// ==========================================
 
 export const FEATURES: Feature[] = [
   {
@@ -155,6 +147,59 @@ export const FEATURES_SECTION = {
   heading: "Built for Modern Investors",
   description: "Experience the future of investing with our comprehensive suite of features designed for both beginners and seasoned investors.",
 };
+
+// ==========================================
+// STATS SECTION
+// ==========================================
+
+export const STATS: Stat[] = [
+  { icon: Users, value: "50K+", label: "Active Investors" },
+  { icon: TrendingUp, value: "$2.5B", label: "Assets Managed" },
+  { icon: Globe, value: "120+", label: "Countries Served" },
+  { icon: Award, value: "99%", label: "Client Satisfaction" },
+];
+
+export const STATS_SECTION = {
+  heading: "Join Glenford and Invest with",
+  headingHighlight: "Confidence",
+  description: "Trust our proven track record and join thousands of investors who have already achieved their financial goals with Glenford Capital.",
+  ctaText: "Start Your Investment Journey",
+};
+
+// ==========================================
+// TESTIMONIALS SECTION
+// ==========================================
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    name: "Sarah Johnson",
+    role: "Entrepreneur",
+    content: "Glenford has completely transformed how I manage my investments. The platform is intuitive and the returns have exceeded my expectations.",
+    rating: 5,
+  },
+  {
+    name: "Michael Chen",
+    role: "Tech Executive",
+    content: "The level of personalized service I've received from Glenford is unmatched. Their team truly understands my financial goals.",
+    rating: 5,
+  },
+  {
+    name: "Emily Rodriguez",
+    role: "Business Owner",
+    content: "After trying multiple platforms, Glenford stands out for its security, ease of use, and exceptional customer support.",
+    rating: 5,
+  },
+];
+
+export const TESTIMONIALS_SECTION = {
+  badge: "TESTIMONIALS",
+  heading: "What Our Clients Say",
+  description: "Hear from investors who have achieved their financial goals with Glenford Capital.",
+};
+
+// ==========================================
+// CTA SECTION
+// ==========================================
 
 export const CTA_SECTION = {
   badge: "GET STARTED TODAY",

@@ -38,7 +38,7 @@ export default function RootLayout({
     <html lang="en">
       <body className= {`bg-background text-foreground ${inter.className}`}>
         <Header />
-        <div className="pt-16 lg:pt-20 ">
+        <div className="">
           {children}
         </div>
         <Footer />

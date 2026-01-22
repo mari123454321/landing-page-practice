@@ -1,10 +1,11 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --h-header: 4rem;
+
   --background: 1 0 0;
   --foreground: 0.145 0 0;
   --card: 1 0 0;
@@ -117,17 +118,29 @@
   --color-sidebar-ring: oklch(var(--sidebar-ring));
 }
 
-
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
   }
-
 }
 @layer utilities {
   /* Gradient text effect - primary to emerald */
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-emerald-400;
+  }
+  .title-l {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground;
+  }
+  .title-sm {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground;
+  }
+  .section-label{
+    @apply text-primary text-sm font-medium tracking-wider;
   }
 
   /* Primary glow effect - large radius */
@@ -151,13 +164,18 @@
   }
 
   @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
   }
 
   /* Grid background pattern - subtle lines */
   .bg-grid {
-    background-image: 
+    background-image:
       linear-gradient(to right, hsl(var(--border) / 0.3) 1px, transparent 1px),
       linear-gradient(to bottom, hsl(var(--border) / 0.3) 1px, transparent 1px);
     background-size: 60px 60px;
