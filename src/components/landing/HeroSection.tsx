@@ -7,6 +7,7 @@ export default function HeroSection() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
             {/* Bottom Fade */}
+            {/* make a component */}
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-20 pointer-events-none" />
             {/* Background Effects */}
             <div className="absolute inset-0 bg-grid opacity-30" />
@@ -30,7 +31,7 @@ export default function HeroSection() {
                     </span>
                 </div>
 
-                <h1 className="title-l mb-8 line-height ">
+                <h1 className="title-xl mb-8 line-height ">
                     {HERO_SECTION.headingStart}
                     {" "}
                     <span className="text-gradient">{HERO_SECTION.headingHighlight}</span>
@@ -48,7 +49,7 @@ export default function HeroSection() {
 
                 {/* Dashboard Preview Img */}
                 <div className="rounded-3xl glow overflow-hidden">
-                    <Image src="/HeroDashboardPreview.png" alt="Dashboard Preview" width={1995} height={841} />
+                    <Image src="/dashboard.webp" alt="Dashboard Preview" width={1024} height={800} />
                 </div>
             </div>
 

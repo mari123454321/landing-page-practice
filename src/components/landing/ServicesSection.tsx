@@ -18,7 +18,7 @@ function ServicesSection() {
       </div>
       <div className='flex flex-col max-w-[50%]'>
         <span className='section-label'>{SERVICES_SECTION.badge}</span>
-        <h1 className='title-sm mt-4 mb-6'>{SERVICES_SECTION.heading}</h1>
+        <h1 className='title-l mt-4 mb-6'>{SERVICES_SECTION.heading}</h1>
         <p className='text-muted-foreground mb-8'>{SERVICES_SECTION.description}</p>
         <div className='flex flex-wrap gap-3 mb-8'>
           {servicesList}
