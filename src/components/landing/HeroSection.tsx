@@ -1,6 +1,9 @@
 import { HERO_SECTION } from "@/src/lib/constants/landing";
-import ButtonFull from "../ui/ButtonFull";
 import Image from 'next/image';
+import { Button } from "../ui/button";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import SectionBadge from "../ui/SectionBadge";
 
 export default function HeroSection() {
 
@@ -25,11 +28,7 @@ export default function HeroSection() {
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center grow-0">
-                <div className="px-4 py-2 border border-primary/30 rounded-full bg-primary/10 my-6 ">
-                    <span className="text-sm font-medium">
-                        {HERO_SECTION.badge}
-                    </span>
-                </div>
+                <SectionBadge text={HERO_SECTION.badge}/>
 
                 <h1 className="title-xl mb-8 line-height ">
                     {HERO_SECTION.headingStart}
@@ -43,8 +42,15 @@ export default function HeroSection() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-16">
-                    <ButtonFull text={HERO_SECTION.primaryCta} variant="primary" />
-                    <ButtonFull text={HERO_SECTION.secondaryCta} variant="secondary" ClassName="text-foreground" />
+                    <Button asChild size={"lg"}>
+                        <Link href="/register">
+                            {HERO_SECTION.primaryCta}
+                            <ArrowRight/>
+                        </Link>
+                    </Button>
+                    <Button asChild variant="outline" size={"lg"}>
+                        <Link href="/register">{HERO_SECTION.secondaryCta}</Link>
+                    </Button>
                 </div>
 
                 {/* Dashboard Preview Img */}

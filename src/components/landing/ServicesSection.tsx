@@ -1,7 +1,8 @@
 import { SERVICES, SERVICES_SECTION } from '@/src/lib/constants/landing'
 import Image from 'next/image'
 import React from 'react'
-import ButtonFull from '../ui/ButtonFull'
+import { Button } from '../ui/button'
+import SectionBadge from '../ui/SectionBadge'
 
 function ServicesSection() {
   const servicesList = SERVICES.map((service, index) => (
@@ -16,14 +17,16 @@ function ServicesSection() {
       <div className='rounded-2xl overflow-hidden'>
         <Image src="/happy-coworkers-sharing-ideas.jpg" alt="Professional business consultation" width={900} height={600} />
       </div>
-      <div className='flex flex-col max-w-[50%]'>
-        <span className='section-label'>{SERVICES_SECTION.badge}</span>
+      <div className='flex flex-col max-w-[50%] *:w-fit'>
+        <SectionBadge text={SERVICES_SECTION.badge}/>
         <h1 className='title-l mt-4 mb-6'>{SERVICES_SECTION.heading}</h1>
         <p className='text-muted-foreground mb-8'>{SERVICES_SECTION.description}</p>
         <div className='flex flex-wrap gap-3 mb-8'>
           {servicesList}
         </div>
-        <ButtonFull text={SERVICES_SECTION.ctaText} variant='primary'/>
+        <Button className='w-fit'>
+          {SERVICES_SECTION.ctaText}
+        </Button>
       </div>
     </section>
   )
