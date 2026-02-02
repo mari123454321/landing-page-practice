@@ -21,6 +21,7 @@ export interface Service {
 export interface ServiceFeature {
   title: string;
   description: string;
+  icon: string
 }
 
 export interface Stat {
@@ -79,18 +80,22 @@ export const SERVICE_FEATURES: ServiceFeature[] = [
   {
     title: "Global Wealth Management",
     description: "Comprehensive wealth management solutions tailored to your global investment needs and objectives.",
+    icon: 'globe',
   },
   {
     title: "Personal & Corporate Banking",
     description: "Seamless banking services designed for both personal wealth and corporate financial management.",
+    icon: 'landmark',
   },
   {
     title: "Asset Company Management",
     description: "Expert management of your asset portfolio with strategic allocation and growth optimization.",
+    icon: 'layers',
   },
   {
     title: "Trading & Bank Investment",
     description: "Professional trading services and bank investment opportunities for maximum returns.",
+    icon: 'trendingUp',
   },
 ];
 
