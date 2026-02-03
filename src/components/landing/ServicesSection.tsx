@@ -5,7 +5,6 @@ import { Button } from '../ui/button'
 import SectionBadge from '../ui/SectionBadge'
 import { Globe, Landmark, Layers, TrendingUp } from 'lucide-react'
 
-const ICONS: Record<string, JSX.Element> = { globe: <Globe />, landmark: <Landmark />, layers: <Layers />, trendingUp: <TrendingUp /> };
 
 function ServicesSection() {
   const servicesList = SERVICES.map((service, index) => (
@@ -17,11 +16,11 @@ function ServicesSection() {
   ))
   return (
     <section id='services' className='mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl'>
-      <div className='min-h-[calc(100vh-4rem)] lg:min-h-[calc(100vh-5rem)] flex flex-row gap-16 items-center justify-center'>
+      <div className='flex flex-col lg:flex-row lg:gap-16 items-center justify-center'>
         <div className='rounded-2xl overflow-hidden'>
           <Image src="/happy-coworkers-sharing-ideas.jpg" alt="Professional business consultation" width={900} height={600} />
         </div>
-        <div className='flex flex-col max-w-[50%] *:w-fit'>
+        <div className='flex flex-col lg:max-w-[50%] *:w-fit'>
           <SectionBadge text={SERVICES_SECTION.badge} />
           <h1 className='title-l mt-4 mb-6'>{SERVICES_SECTION.heading}</h1>
           <p className='text-muted-foreground mb-8'>{SERVICES_SECTION.description}</p>
@@ -34,14 +33,14 @@ function ServicesSection() {
         </div>
       </div>
 
-      <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-6'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-24'>
         {
           SERVICE_FEATURES.map((feature, index) => (
-            <div key={index} className='glass rounded-xl p-6 hover:border-primary/30 transition-all duration-300 group'>
+            <div key={index} className='glass-card group'>
               <div className='
-              w-12 h-12 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center mb-4 group-hover:glow-sm transition-all
+              w-12 h-12 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center mb-4 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.2)] transition-all
               *:w-6 *:h-6 *:text-primary'>
-                {ICONS[feature.icon]}
+                {<feature.icon/>}
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">{feature.title}</h3>
               <p className="text-muted-foreground text-sm">{feature.description}</p>

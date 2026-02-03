@@ -1,7 +1,9 @@
 import { 
   Shield, Zap, Lock, Globe, HeadphonesIcon, BarChart3,
   Briefcase, LineChart, PiggyBank, Users, TrendingUp, PieChart, Award,
-  LucideIcon 
+  LucideIcon, 
+  Landmark,
+  Layers
 } from "lucide-react";
 
 // ==========================================
@@ -21,7 +23,7 @@ export interface Service {
 export interface ServiceFeature {
   title: string;
   description: string;
-  icon: string
+  icon: LucideIcon;
 }
 
 export interface Stat {
@@ -80,22 +82,22 @@ export const SERVICE_FEATURES: ServiceFeature[] = [
   {
     title: "Global Wealth Management",
     description: "Comprehensive wealth management solutions tailored to your global investment needs and objectives.",
-    icon: 'globe',
+    icon: Globe,
   },
   {
     title: "Personal & Corporate Banking",
     description: "Seamless banking services designed for both personal wealth and corporate financial management.",
-    icon: 'landmark',
+    icon: Landmark,
   },
   {
     title: "Asset Company Management",
     description: "Expert management of your asset portfolio with strategic allocation and growth optimization.",
-    icon: 'layers',
+    icon: Layers,
   },
   {
     title: "Trading & Bank Investment",
     description: "Professional trading services and bank investment opportunities for maximum returns.",
-    icon: 'trendingUp',
+    icon: TrendingUp,
   },
 ];
 

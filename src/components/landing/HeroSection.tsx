@@ -8,7 +8,7 @@ import SectionBadge from "../ui/SectionBadge";
 export default function HeroSection() {
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden ">
             {/* Bottom Fade */}
             {/* make a component */}
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-background to-transparent z-20 pointer-events-none" />
