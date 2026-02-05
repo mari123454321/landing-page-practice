@@ -143,7 +143,7 @@
 @layer utilities {
   /* Gradient text effect - primary to emerald */
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-liniar-to-r from-primary to-emerald-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-emerald-400;
   }
   .title-xl {
     @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground;
