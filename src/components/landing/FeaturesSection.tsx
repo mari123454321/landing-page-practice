@@ -3,7 +3,7 @@ import { FEATURES, FEATURES_SECTION } from '@/src/lib/constants/landing'
 
 function FeaturesSection() {
     return (
-        <section className='mx-auto text-center max-w-7xl px-4 sm:px-6 lg:px-8'>
+        <section className='mx-auto text-center max-w-7xl px-4 sm:px-6 lg:px-8' id='features'>
             <div className='flex flex-col items-center mb-16'>
                 <SectionBadge text={FEATURES_SECTION.badge} />
                 <h2 className="title-l mt-4 mb-6">{FEATURES_SECTION.heading}</h2>

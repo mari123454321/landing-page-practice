@@ -383,7 +383,7 @@ export const CTA_SECTION = {
   description:
     "Join thousands of successful traders who trust Glenford. Create your account today and access global markets with competitive spreads.",
   primaryCta: "Open Trading Account",
-  secondaryCta: "View Demo",
+  secondaryCta: "Login",
   trustIndicators: [
     "Free demo account",
     "No hidden fees",
