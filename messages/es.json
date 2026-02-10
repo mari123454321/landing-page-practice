@@ -1,0 +1,46 @@
+{
+  "Footer": {
+    "bottomLinks": {
+      "amlPolicy": "POLÍTICA CONTRA EL LAVADO DE CAPITALES",
+      "privacyPolicy": "POLÍTICA DE PRIVACIDAD",
+      "termsAndConditions": "TÉRMINOS Y CONDICIONES"
+    },
+    "bottomText": {
+      "address": "Rue du Pré-de-la-Bichette 3, 1201 Ginebra, Suiza",
+      "copyright": "Copyright © 2025 Glenfordcap Trading",
+      "register": "Registrado por MICA Consulting Ltd"
+    },
+    "createAccount": "CREAR UNA NUEVA CUENTA",
+    "legalAgreements": {
+      "amlPolicy": "Política contra el blanqueo de capitales",
+      "kycPolicy": "Política KYC",
+      "privacyPolicy": "Política de privacidad",
+      "termsAndConditions": "Términos y condiciones",
+      "title": "Acuerdos legales"
+    },
+    "marketTrading": {
+      "accountTypes": "Tipos de cuenta",
+      "paymentMethods": "Métodos de pago",
+      "title": "Operaciones en el mercado",
+      "tradingNews": "Noticias de trading"
+    },
+    "ourCompany": {
+      "aboutUs": "Sobre nosotros",
+      "ourSupport": "Nuestro soporte",
+      "title": "Nuestra Empresa"
+    },
+    "tradingPlatform": {
+      "glenford": "Empresa",
+      "title": "Plataforma de Trading"
+    },
+    "tradingProducts": {
+      "digitalCurrencies": "Monedas Digitales",
+      "forex": "Forex",
+      "goods": "Bienes",
+      "indices": "Índices",
+      "shares": "Acciones",
+      "title": "Productos de Trading"
+    },
+    "userLogin": "INICIO DE SESIÓN DE USUARIO"
+  }
+}

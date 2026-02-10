@@ -1,5 +1,8 @@
 import { Inter, Lora, Playfair_Display, Space_Mono } from "next/font/google";
-import "../styles/globals.css";
+import "../../styles/globals.css";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { routing } from "@/src/i18n/routing";
+import { notFound } from "next/navigation";
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -10,30 +13,21 @@ const inter = Inter({
   subsets: ['latin'],
   variable: "--font-inter"
 })
-const lora = Lora({
-  subsets: ["latin"],
-  variable: "--font-lora"
-})
-const spaceMono = Space_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-space-mono"
-})
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-display',
-});
 
-export default function RootLayout({
-  children,
+export default async function RootLayout({
+  children, params
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{locale: string}>;
 }>) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   return (
     <html lang="en">
       <body className={`bg-background text-foreground ${inter.className}`}>
-        {children}
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );

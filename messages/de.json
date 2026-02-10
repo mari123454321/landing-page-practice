@@ -1,0 +1,46 @@
+{
+  "Footer": {
+    "bottomLinks": {
+      "amlPolicy": "ANTI-GELDWÄSCHE-RICHTLINIE",
+      "privacyPolicy": "DATENSCHUTZRICHTLINIE",
+      "termsAndConditions": "GESCHÄFTSBEDINGUNGEN"
+    },
+    "bottomText": {
+      "address": "Rue du Pré-de-la-Bichette 3, 1201 Genf, Schweiz",
+      "copyright": "Copyright © 2025 Glenfordcap Trading",
+      "register": "Registriert bei MICA Consulting Ltd"
+    },
+    "createAccount": "NEUES KONTO ERSTELLEN",
+    "legalAgreements": {
+      "amlPolicy": "AML-Richtlinie",
+      "kycPolicy": "KYC-Richtlinie",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsAndConditions": "Geschäftsbedingungen",
+      "title": "Rechtliche Vereinbarungen"
+    },
+    "marketTrading": {
+      "accountTypes": "Kontotypen",
+      "paymentMethods": "Zahlungsmethoden",
+      "title": "Markthandel",
+      "tradingNews": "Handelsnachrichten"
+    },
+    "ourCompany": {
+      "aboutUs": "Über uns",
+      "ourSupport": "Unser Support",
+      "title": "Unser Unternehmen"
+    },
+    "tradingPlatform": {
+      "glenford": "Unternehmen",
+      "title": "Handelsplattform"
+    },
+    "tradingProducts": {
+      "digitalCurrencies": "Digitale Währungen",
+      "forex": "Forex",
+      "goods": "Waren",
+      "indices": "Indizes",
+      "shares": "Aktien",
+      "title": "Handelsprodukte"
+    },
+    "userLogin": "BENUTZER-LOGIN"
+  }
+}
