@@ -1,4 +1,4 @@
-import SectionBadge from '../ui/SectionBadge'
+import SectionBadge from "@/src/components/ui/SectionBadge";
 import { FEATURES, FEATURES_SECTION } from '@/src/lib/constants/landing'
 
 function FeaturesSection() {

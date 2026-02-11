@@ -1,7 +1,7 @@
 import { SERVICE_FEATURES, SERVICES, SERVICES_SECTION } from '@/src/lib/constants/landing'
-import Image from 'next/image'
-import { Button } from '@/src/components/ui/button'
-import SectionBadge from '../ui/SectionBadge'
+import Image from 'next/image';
+import { Button } from '@/src/components/ui/button';
+import SectionBadge from "@/src/components/ui/SectionBadge";
 
 
 function ServicesSection() {

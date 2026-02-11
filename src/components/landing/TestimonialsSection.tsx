@@ -1,5 +1,6 @@
 import { TESTIMONIALS, TESTIMONIALS_SECTION } from '@/src/lib/constants/landing'
-import SectionBadge from '../ui/SectionBadge'
+import SectionBadge from "@/src/components/ui/SectionBadge";
+
 
 function TestimonialsSection() {
     return (

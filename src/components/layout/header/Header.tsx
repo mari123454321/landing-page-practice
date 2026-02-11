@@ -4,6 +4,7 @@ import HeaderLogo from "@/src/components/ui/BrandLogo";
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
@@ -13,8 +14,9 @@ export default function Header() {
                 <Link href="/">
                     <HeaderLogo />
                 </Link>
-                <div className="hidden lg:flex">
+                <div className="hidden lg:flex gap-4">
                     <HeaderAuthButtons />
+                    <LanguageSwitcher />
                 </div>
                 <button
                     onClick={() => setIsOpen(!isOpen)}

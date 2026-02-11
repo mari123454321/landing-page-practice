@@ -1,6 +1,6 @@
-import SectionBadge from '../ui/SectionBadge'
+import SectionBadge from "@/src/components/ui/SectionBadge";
 import { CTA_SECTION } from '@/src/lib/constants/landing'
-import { Button } from '../ui/button'
+import { Button } from '@/src/components/ui/button';
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
