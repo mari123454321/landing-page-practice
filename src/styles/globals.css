@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-/* @custom-variant dark (&:is(.dark *)); */
 
 :root {
   --background: 222 47% 11%;

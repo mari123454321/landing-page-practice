@@ -3,6 +3,8 @@ import "../../styles/globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/src/i18n/routing";
 import { notFound } from "next/navigation";
+import CompanyInfoClient from "@/src/components/CompanyInfo/CompanyInfoClient";
+import CompanyInfoSRV from "@/src/components/CompanyInfo/CompanyInfoSRV";
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -18,7 +20,7 @@ export default async function RootLayout({
   children, params
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
@@ -27,7 +29,10 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-background text-foreground ${inter.className}`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <CompanyInfoSRV />
+        <NextIntlClientProvider>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

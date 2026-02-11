@@ -42,5 +42,208 @@
       "title": "Productos de Trading"
     },
     "userLogin": "INICIO DE SESIÓN DE USUARIO"
+  },
+  "hero": {
+    "badge": "PLATAFORMA DE TRADING TOTALMENTE REGULADA",
+    "headingStart": "Opera en los Mercados con",
+    "headingHighlight": "Confianza",
+    "headingEnd": "",
+    "description": "Accede a CFDs en Cripto, Forex, Materias Primas, Bonos, Metales, Energias, Acciones e Indices con ejecucion ultrarapida en una plataforma totalmente regulada.",
+    "primaryCta": "Comenzar a Operar",
+    "secondaryCta": "Saber Mas",
+    "features": {
+      "0": "Ejecucion ultrarapida",
+      "1": "Regulada y segura",
+      "2": "Acceso a mercados globales"
+    }
+  },
+  "heroDashboard": {
+    "brand": {
+      "logo": "C",
+      "name": "capwise"
+    },
+    "navItems": {
+      "0": "Panel",
+      "1": "Intercambio",
+      "2": "Billetera",
+      "3": "Mercado"
+    },
+    "stats": {
+      "bitcoin": {
+        "label": "Bitcoin",
+        "sublabel": "BTC/USD"
+      },
+      "change": {
+        "label": "Cambio 24h",
+        "value": "+0.53%"
+      },
+      "lastPrice": {
+        "label": "Ultimo Precio",
+        "value": "18,372.59 USD"
+      },
+      "low": {
+        "label": "Minimo 24h",
+        "value": "18,372.59 USD"
+      }
+    },
+    "sidebar": {
+      "currency": "Bitcoin",
+      "balanceLabel": "Saldo Actual",
+      "balance": "4,000",
+      "balanceUnit": "BTC",
+      "volumeLabel": "Volumen (24h)",
+      "volumeChange": "+2.36%",
+      "usdValue": "4,000",
+      "usdUnit": "USD",
+      "buyButton": "Comprar",
+      "sellButton": "Vender"
+    }
+  },
+  "tradingInstruments": {
+    "crypto": {
+      "label": "Cripto",
+      "description": "Pares cripto principales en tiempo real"
+    },
+    "forex": {
+      "label": "Forex",
+      "description": "Pares FX principales y precios"
+    },
+    "commodities": {
+      "label": "Materias Primas",
+      "description": "Oro, petroleo, gas y mas"
+    },
+    "stocks": {
+      "label": "Acciones",
+      "description": "Acciones e indices populares"
+    }
+  },
+  "services": {
+    "items": {
+      "cryptoTrading": "Trading de Cripto",
+      "forexTrading": "Trading de Forex",
+      "digitalWallets": "Billeteras Digitales",
+      "copyTrading": "Copy Trading",
+      "secureCustody": "Custodia Segura",
+      "cfdTrading": "Trading de CFDs",
+      "portfolioAnalytics": "Analisis de Portafolio",
+      "marketAnalysis": "Analisis de Mercado"
+    },
+    "badge": "QUIENES SOMOS",
+    "heading": "Mas de 500 Instrumentos de Trading a tu Alcance",
+    "description": "Opera cripto, forex, materias primas y mas en una sola plataforma con seguridad de grado institucional y ejecucion ultrarapida.",
+    "ctaText": "Descubrir Mas",
+    "expertTitle": "Traders Expertos",
+    "expertSubtitle": "Confianza de traders en todo el mundo",
+    "yearsExperience": "10+",
+    "yearsLabel": "Anos en los Mercados",
+    "instrumentCount": "500+",
+    "instrumentLabel": "Instrumentos de Trading"
+  },
+  "serviceFeatures": {
+    "cryptoTrading": {
+      "title": "Trading de Criptomonedas",
+      "description": "Opera Bitcoin, Ethereum y mas de 100 altcoins con spreads competitivos y ejecucion instantanea."
+    },
+    "forexCfd": {
+      "title": "Trading de Forex y CFDs",
+      "description": "Accede a los mercados forex globales con apalancamiento de hasta 1:500 y spreads ajustados desde 0.0 pips."
+    },
+    "copyTrading": {
+      "title": "Plataforma de Copy Trading",
+      "description": "Sigue y copia a traders exitosos automaticamente con nuestras funciones avanzadas de trading social."
+    },
+    "secureCustody": {
+      "title": "Custodia Segura de Activos",
+      "description": "Tus activos estan protegidos con seguridad de grado institucional y soluciones de almacenamiento en frio."
+    }
+  },
+  "features": {
+    "badge": "POR QUE ELEGIRNOS",
+    "heading": "Disenado para Inversores Modernos",
+    "description": "Experimenta el futuro de la inversion con nuestra completa suite de funciones disenada tanto para principiantes como para inversores experimentados.",
+    "items": {
+      "regulated": {
+        "title": "Regulada y Segura",
+        "description": "Plataforma totalmente regulada con seguridad bancaria, 2FA y proteccion de almacenamiento en frio."
+      },
+      "fast": {
+        "title": "Ultrarapida",
+        "description": "Ejecuta operaciones en milisegundos con infraestructura de latencia ultrabaja y 99.9% de disponibilidad."
+      },
+      "custody": {
+        "title": "Custodia Segura",
+        "description": "Tus activos cripto estan protegidos con almacenamiento en frio de grado institucional y seguro."
+      },
+      "global": {
+        "title": "Acceso Global",
+        "description": "Opera 24/7 en mercados globales de cripto, forex y materias primas desde cualquier lugar."
+      },
+      "support": {
+        "title": "Soporte 24/7",
+        "description": "Nuestros especialistas en trading estan disponibles las 24 horas para ayudarte con cualquier consulta."
+      },
+      "tools": {
+        "title": "Herramientas Pro de Trading",
+        "description": "Graficos avanzados, indicadores tecnicos y datos de mercado en tiempo real a tu alcance."
+      }
+    }
+  },
+  "stats": {
+    "heading": "Unete a Miles de Traders con",
+    "headingHighlight": "Confianza",
+    "description": "Confia en nuestro historial comprobado y unete a miles de traders que ejecutan millones de operaciones diariamente en nuestra plataforma segura.",
+    "ctaText": "Comienza a Operar Hoy",
+    "items": {
+      "activeTraders": {
+        "value": "150K+",
+        "label": "Traders Activos"
+      },
+      "dailyVolume": {
+        "value": "$5.2B",
+        "label": "Volumen Diario"
+      },
+      "countries": {
+        "value": "120+",
+        "label": "Paises Atendidos"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Disponibilidad"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "TESTIMONIOS",
+    "heading": "Lo Que Dicen Nuestros Clientes",
+    "description": "Escucha a inversores que han alcanzado sus metas financieras con Glenford Capital.",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Day Trader",
+        "content": "La velocidad de ejecucion es increible. He probado muchas plataformas pero la baja latencia y los spreads ajustados hacen una verdadera diferencia en mi trading."
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "role": "Inversor Cripto",
+        "content": "Por fin una plataforma que combina trading de cripto y forex con seguridad de grado institucional. La funcion de copy trading es revolucionaria."
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "role": "Gestora de Portafolio",
+        "content": "Las herramientas avanzadas de graficos y analisis en tiempo real me ayudan a tomar decisiones informadas. El soporte al cliente esta disponible 24/7, lo cual es crucial."
+      }
+    }
+  },
+  "cta": {
+    "badge": "COMIENZA HOY",
+    "heading": "Listo para Empezar a Operar?",
+    "description": "Unete a miles de traders exitosos que confian en Glenford. Crea tu cuenta hoy y accede a mercados globales con spreads competitivos.",
+    "primaryCta": "Abrir Cuenta de Trading",
+    "secondaryCta": "Iniciar Sesion",
+    "trustIndicators": {
+      "0": "Cuenta demo gratuita",
+      "1": "Sin comisiones ocultas",
+      "2": "Retiros instantaneos"
+    }
   }
 }

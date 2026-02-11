@@ -6,11 +6,15 @@ import SectionBadge from '../ui/SectionBadge'
 
 function ServicesSection() {
   return (
-    <section id='services' className='mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl'>
+    <section className='mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl'>
       <div className='flex flex-col lg:flex-row lg:gap-16 items-center justify-center'>
-        <div className='rounded-2xl overflow-hidden'>
-          <Image src="/happy-coworkers-sharing-ideas.jpg" alt="Professional business consultation" width={900} height={600} />
-        </div>
+        <Image
+          src='/business.jpg'
+          alt={"temp alt"}
+          width={600}
+          height={300}
+          className='rounded-2xl object-cover w-full'
+        />
         <div className='flex flex-col lg:max-w-[50%] *:w-fit'>
           <SectionBadge text={SERVICES_SECTION.badge} />
           <h1 className='title-l mt-4 mb-6'>{SERVICES_SECTION.heading}</h1>

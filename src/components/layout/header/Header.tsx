@@ -1,7 +1,6 @@
 'use client'
-import HeaderAuthButtons from "./HeaderAuthButtons";
-import HeaderLogo from "../../common/BrandLogo";
-import HeaderNav from "./HeaderNav";
+import HeaderAuthButtons from "@/src/components/Layout/Header/HeaderAuthButtons";
+import HeaderLogo from "@/src/components/ui/BrandLogo";
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -15,9 +14,6 @@ export default function Header() {
                     <HeaderLogo />
                 </Link>
                 <div className="hidden lg:flex">
-                    <HeaderNav />
-                </div>
-                <div className="hidden lg:flex">
                     <HeaderAuthButtons />
                 </div>
                 <button
@@ -28,7 +24,6 @@ export default function Header() {
                 </button>
                 {isOpen && (
                     <div className="fixed top-16 left-0 right-0 lg:hidden glass border-t border-border/50 px-4 py-6 space-y-8">
-                        <HeaderNav />
                         <HeaderAuthButtons />
                     </div>
                 )}

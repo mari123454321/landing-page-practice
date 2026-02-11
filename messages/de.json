@@ -42,5 +42,208 @@
       "title": "Handelsprodukte"
     },
     "userLogin": "BENUTZER-LOGIN"
+  },
+  "hero": {
+    "badge": "VOLLSTANDIG REGULIERTE HANDELSPLATTFORM",
+    "headingStart": "Handeln Sie an den Markten mit",
+    "headingHighlight": "Vertrauen",
+    "headingEnd": "",
+    "description": "Zugang zu CFDs auf Krypto, Forex, Rohstoffe, Anleihen, Metalle, Energien, Aktien und Indizes mit ultraschneller Ausfuehrung auf einer vollstaendig regulierten Plattform.",
+    "primaryCta": "Jetzt Handeln",
+    "secondaryCta": "Mehr Erfahren",
+    "features": {
+      "0": "Ultraschnelle Ausfuehrung",
+      "1": "Reguliert und sicher",
+      "2": "Globaler Marktzugang"
+    }
+  },
+  "heroDashboard": {
+    "brand": {
+      "logo": "C",
+      "name": "capwise"
+    },
+    "navItems": {
+      "0": "Dashboard",
+      "1": "Boerse",
+      "2": "Wallet",
+      "3": "Markt"
+    },
+    "stats": {
+      "bitcoin": {
+        "label": "Bitcoin",
+        "sublabel": "BTC/USD"
+      },
+      "change": {
+        "label": "24h Aenderung",
+        "value": "+0.53%"
+      },
+      "lastPrice": {
+        "label": "Letzter Preis",
+        "value": "18,372.59 USD"
+      },
+      "low": {
+        "label": "24h Tief",
+        "value": "18,372.59 USD"
+      }
+    },
+    "sidebar": {
+      "currency": "Bitcoin",
+      "balanceLabel": "Aktuelles Guthaben",
+      "balance": "4,000",
+      "balanceUnit": "BTC",
+      "volumeLabel": "Volumen (24h)",
+      "volumeChange": "+2.36%",
+      "usdValue": "4,000",
+      "usdUnit": "USD",
+      "buyButton": "Kaufen",
+      "sellButton": "Verkaufen"
+    }
+  },
+  "tradingInstruments": {
+    "crypto": {
+      "label": "Krypto",
+      "description": "Top-Kryptopaare in Echtzeit"
+    },
+    "forex": {
+      "label": "Forex",
+      "description": "Wichtige FX-Paare und Kurse"
+    },
+    "commodities": {
+      "label": "Rohstoffe",
+      "description": "Gold, Oel, Gas und mehr"
+    },
+    "stocks": {
+      "label": "Aktien",
+      "description": "Beliebte Aktien und Indizes"
+    }
+  },
+  "services": {
+    "items": {
+      "cryptoTrading": "Krypto-Handel",
+      "forexTrading": "Forex-Handel",
+      "digitalWallets": "Digitale Wallets",
+      "copyTrading": "Copy Trading",
+      "secureCustody": "Sichere Verwahrung",
+      "cfdTrading": "CFD-Handel",
+      "portfolioAnalytics": "Portfolio-Analyse",
+      "marketAnalysis": "Marktanalyse"
+    },
+    "badge": "WER WIR SIND",
+    "heading": "Ueber 500 Handelsinstrumente griffbereit",
+    "description": "Handeln Sie Krypto, Forex, Rohstoffe und mehr auf einer einzigen Plattform mit institutioneller Sicherheit und blitzschneller Ausfuehrung.",
+    "ctaText": "Mehr Entdecken",
+    "expertTitle": "Erfahrene Trader",
+    "expertSubtitle": "Vertraut von Tradern weltweit",
+    "yearsExperience": "10+",
+    "yearsLabel": "Jahre an den Maerkten",
+    "instrumentCount": "500+",
+    "instrumentLabel": "Handelsinstrumente"
+  },
+  "serviceFeatures": {
+    "cryptoTrading": {
+      "title": "Kryptowaehrungshandel",
+      "description": "Handeln Sie Bitcoin, Ethereum und ueber 100 Altcoins mit wettbewerbsfaehigen Spreads und sofortiger Ausfuehrung."
+    },
+    "forexCfd": {
+      "title": "Forex- und CFD-Handel",
+      "description": "Zugang zu globalen Forex-Maerkten mit Hebel bis zu 1:500 und engen Spreads ab 0,0 Pips."
+    },
+    "copyTrading": {
+      "title": "Copy-Trading-Plattform",
+      "description": "Folgen und kopieren Sie erfolgreiche Trader automatisch mit unseren fortschrittlichen Social-Trading-Funktionen."
+    },
+    "secureCustody": {
+      "title": "Sichere Vermoegenverwahrung",
+      "description": "Ihre Vermoegenswerte sind mit institutioneller Sicherheit und Cold-Storage-Loesungen geschuetzt."
+    }
+  },
+  "features": {
+    "badge": "WARUM UNS WAEHLEN",
+    "heading": "Fuer Moderne Investoren Entwickelt",
+    "description": "Erleben Sie die Zukunft des Investierens mit unserer umfassenden Suite von Funktionen, die sowohl fuer Anfaenger als auch fuer erfahrene Investoren entwickelt wurde.",
+    "items": {
+      "regulated": {
+        "title": "Reguliert und Sicher",
+        "description": "Vollstaendig regulierte Plattform mit Sicherheit auf Bankniveau, 2FA und Cold-Storage-Schutz."
+      },
+      "fast": {
+        "title": "Blitzschnell",
+        "description": "Fuehren Sie Trades in Millisekunden aus mit Infrastruktur niedriger Latenz und 99,9% Verfuegbarkeit."
+      },
+      "custody": {
+        "title": "Sichere Verwahrung",
+        "description": "Ihre Krypto-Vermoegenswerte sind mit institutionellem Cold Storage und Versicherung geschuetzt."
+      },
+      "global": {
+        "title": "Globaler Zugang",
+        "description": "Handeln Sie rund um die Uhr auf globalen Krypto-, Forex- und Rohstoffmaerkten von ueberall."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Unsere Handelsspezialisten stehen Ihnen rund um die Uhr fuer alle Fragen zur Verfuegung."
+      },
+      "tools": {
+        "title": "Profi-Handelstools",
+        "description": "Fortschrittliche Charts, technische Indikatoren und Echtzeit-Marktdaten griffbereit."
+      }
+    }
+  },
+  "stats": {
+    "heading": "Schliessen Sie sich Tausenden von Tradern an mit",
+    "headingHighlight": "Vertrauen",
+    "description": "Vertrauen Sie auf unsere bewaehrte Erfolgsbilanz und schliessen Sie sich Tausenden von Tradern an, die taeglich Millionen von Trades auf unserer sicheren Plattform ausfuehren.",
+    "ctaText": "Heute mit dem Handel Beginnen",
+    "items": {
+      "activeTraders": {
+        "value": "150K+",
+        "label": "Aktive Trader"
+      },
+      "dailyVolume": {
+        "value": "$5.2B",
+        "label": "Taegliches Volumen"
+      },
+      "countries": {
+        "value": "120+",
+        "label": "Bediente Laender"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Verfuegbarkeit"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "ERFAHRUNGSBERICHTE",
+    "heading": "Was Unsere Kunden Sagen",
+    "description": "Hoeren Sie von Investoren, die ihre finanziellen Ziele mit Glenford Capital erreicht haben.",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Day Traderin",
+        "content": "Die Ausfuehrungsgeschwindigkeit ist unglaublich. Ich habe viele Plattformen ausprobiert, aber die niedrige Latenz und die engen Spreads machen einen echten Unterschied in meinem Handel."
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "role": "Krypto-Investor",
+        "content": "Endlich eine Plattform, die Krypto- und Forex-Handel mit institutioneller Sicherheit kombiniert. Die Copy-Trading-Funktion ist bahnbrechend."
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "role": "Portfolio-Managerin",
+        "content": "Die fortschrittlichen Charting-Tools und Echtzeit-Analysen helfen mir, fundierte Entscheidungen zu treffen. Der Kundensupport ist rund um die Uhr erreichbar, was entscheidend ist."
+      }
+    }
+  },
+  "cta": {
+    "badge": "HEUTE STARTEN",
+    "heading": "Bereit zum Handeln?",
+    "description": "Schliessen Sie sich Tausenden erfolgreicher Trader an, die Glenford vertrauen. Erstellen Sie noch heute Ihr Konto und erhalten Sie Zugang zu globalen Maerkten mit wettbewerbsfaehigen Spreads.",
+    "primaryCta": "Handelskonto Eroeffnen",
+    "secondaryCta": "Anmelden",
+    "trustIndicators": {
+      "0": "Kostenloses Demokonto",
+      "1": "Keine versteckten Gebuehren",
+      "2": "Sofortige Auszahlungen"
+    }
   }
 }

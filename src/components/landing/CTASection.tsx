@@ -1,11 +1,10 @@
-import React from 'react'
 import SectionBadge from '../ui/SectionBadge'
 import { CTA_SECTION } from '@/src/lib/constants/landing'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
-function CTASection() {
+export default function CTASection() {
     return (
         <section className='overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
             <div className='relative glass rounded-3xl p-8 sm:p-12 lg:p-16 overflow-hidden '>
@@ -44,4 +43,3 @@ function CTASection() {
     )
 }
 
-export default CTASection

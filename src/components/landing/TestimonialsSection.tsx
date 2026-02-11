@@ -1,7 +1,5 @@
 import { TESTIMONIALS, TESTIMONIALS_SECTION } from '@/src/lib/constants/landing'
-import React from 'react'
 import SectionBadge from '../ui/SectionBadge'
-import { Star } from 'lucide-react'
 
 function TestimonialsSection() {
     return (

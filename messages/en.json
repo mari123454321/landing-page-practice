@@ -42,5 +42,208 @@
       "title": "Trading Products"
     },
     "userLogin": "USER LOGIN"
+  },
+  "hero": {
+    "badge": "FULLY REGULATED TRADING PLATFORM",
+    "headingStart": "Trade The Markets With",
+    "headingHighlight": "Confidence",
+    "headingEnd": "",
+    "description": "Access CFDs on Crypto, Forex, Commodities, Bonds, Metals, Energies, Shares, and Indices with ultra-fast execution on a fully regulated platform.",
+    "primaryCta": "Start Trading Now",
+    "secondaryCta": "Learn More",
+    "features": {
+      "0": "Ultra-fast execution",
+      "1": "Regulated & secure",
+      "2": "Global markets access"
+    }
+  },
+  "heroDashboard": {
+    "brand": {
+      "logo": "C",
+      "name": "capwise"
+    },
+    "navItems": {
+      "0": "Dashboard",
+      "1": "Exchange",
+      "2": "Wallet",
+      "3": "Market"
+    },
+    "stats": {
+      "bitcoin": {
+        "label": "Bitcoin",
+        "sublabel": "BTC/USD"
+      },
+      "change": {
+        "label": "24h Change",
+        "value": "+0.53%"
+      },
+      "lastPrice": {
+        "label": "Last Price",
+        "value": "18,372.59 USD"
+      },
+      "low": {
+        "label": "24h Low",
+        "value": "18,372.59 USD"
+      }
+    },
+    "sidebar": {
+      "currency": "Bitcoin",
+      "balanceLabel": "Current Balance",
+      "balance": "4,000",
+      "balanceUnit": "BTC",
+      "volumeLabel": "Volume (24h)",
+      "volumeChange": "+2.36%",
+      "usdValue": "4,000",
+      "usdUnit": "USD",
+      "buyButton": "Buy",
+      "sellButton": "Sell"
+    }
+  },
+  "tradingInstruments": {
+    "crypto": {
+      "label": "Crypto",
+      "description": "Top crypto pairs in real-time"
+    },
+    "forex": {
+      "label": "Forex",
+      "description": "Major FX pairs & pricing"
+    },
+    "commodities": {
+      "label": "Commodities",
+      "description": "Gold, oil, gas and more"
+    },
+    "stocks": {
+      "label": "Stocks",
+      "description": "Popular equities & indices"
+    }
+  },
+  "services": {
+    "items": {
+      "cryptoTrading": "Crypto Trading",
+      "forexTrading": "Forex Trading",
+      "digitalWallets": "Digital Wallets",
+      "copyTrading": "Copy Trading",
+      "secureCustody": "Secure Custody",
+      "cfdTrading": "CFD Trading",
+      "portfolioAnalytics": "Portfolio Analytics",
+      "marketAnalysis": "Market Analysis"
+    },
+    "badge": "WHO WE ARE",
+    "heading": "500+ Trading Instruments at Your Fingertips",
+    "description": "Trade crypto, forex, commodities, and more on a single platform with institutional-grade security and lightning-fast execution.",
+    "ctaText": "Discover More",
+    "expertTitle": "Expert Traders",
+    "expertSubtitle": "Trusted by traders worldwide",
+    "yearsExperience": "10+",
+    "yearsLabel": "Years in Markets",
+    "instrumentCount": "500+",
+    "instrumentLabel": "Trading Instruments"
+  },
+  "serviceFeatures": {
+    "cryptoTrading": {
+      "title": "Cryptocurrency Trading",
+      "description": "Trade Bitcoin, Ethereum, and 100+ altcoins with competitive spreads and instant execution."
+    },
+    "forexCfd": {
+      "title": "Forex & CFD Trading",
+      "description": "Access global forex markets with leverage up to 1:500 and tight spreads from 0.0 pips."
+    },
+    "copyTrading": {
+      "title": "Copy Trading Platform",
+      "description": "Follow and copy successful traders automatically with our advanced social trading features."
+    },
+    "secureCustody": {
+      "title": "Secure Asset Custody",
+      "description": "Your assets are protected with institutional-grade security and cold storage solutions."
+    }
+  },
+  "features": {
+    "badge": "WHY CHOOSE US",
+    "heading": "Built for Modern Investors",
+    "description": "Experience the future of investing with our comprehensive suite of features designed for both beginners and seasoned investors.",
+    "items": {
+      "regulated": {
+        "title": "Regulated & Secure",
+        "description": "Fully regulated platform with bank-level security, 2FA, and cold storage protection."
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "Execute trades in milliseconds with ultra-low latency infrastructure and 99.9% uptime."
+      },
+      "custody": {
+        "title": "Secure Custody",
+        "description": "Your crypto assets are protected with institutional-grade cold storage and insurance."
+      },
+      "global": {
+        "title": "Global Access",
+        "description": "Trade 24/7 across global crypto, forex, and commodity markets from anywhere."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our trading specialists are available around the clock to assist with any questions."
+      },
+      "tools": {
+        "title": "Pro Trading Tools",
+        "description": "Advanced charting, technical indicators, and real-time market data at your fingertips."
+      }
+    }
+  },
+  "stats": {
+    "heading": "Join Thousands of Traders with",
+    "headingHighlight": "Confidence",
+    "description": "Trust our proven track record and join thousands of traders who execute millions of trades daily on our secure platform.",
+    "ctaText": "Start Trading Today",
+    "items": {
+      "activeTraders": {
+        "value": "150K+",
+        "label": "Active Traders"
+      },
+      "dailyVolume": {
+        "value": "$5.2B",
+        "label": "Daily Volume"
+      },
+      "countries": {
+        "value": "120+",
+        "label": "Countries Served"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "TESTIMONIALS",
+    "heading": "What Our Clients Say",
+    "description": "Hear from investors who have achieved their financial goals with Glenford Capital.",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Day Trader",
+        "content": "The execution speed is incredible. I've tried many platforms but the low latency and tight spreads make a real difference in my trading."
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "role": "Crypto Investor",
+        "content": "Finally a platform that combines crypto and forex trading with institutional-grade security. The copy trading feature is a game-changer."
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "role": "Portfolio Manager",
+        "content": "The advanced charting tools and real-time analytics help me make informed decisions. Customer support is available 24/7 which is crucial."
+      }
+    }
+  },
+  "cta": {
+    "badge": "GET STARTED TODAY",
+    "heading": "Ready to Start Trading?",
+    "description": "Join thousands of successful traders who trust Glenford. Create your account today and access global markets with competitive spreads.",
+    "primaryCta": "Open Trading Account",
+    "secondaryCta": "Login",
+    "trustIndicators": {
+      "0": "Free demo account",
+      "1": "No hidden fees",
+      "2": "Instant withdrawals"
+    }
   }
 }

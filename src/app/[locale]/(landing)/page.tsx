@@ -1,9 +1,9 @@
-import StatsSection from "@/src/components/landing/StatsSection";
-import FeaturesSection from "@/src/components/landing/FeaturesSection";
-import TestimonialsSection from "@/src/components/landing/TestimonialsSection";
-import CTASection from "@/src/components/landing/CTASection";
-import ServicesSection from "@/src/components/landing/ServicesSection";
-import HeroSection from "@/src/components/landing/HeroSection";
+import StatsSection from "@/src/components/Landing/StatsSection";
+import FeaturesSection from "@/src/components/Landing/FeaturesSection";
+import TestimonialsSection from "@/src/components/Landing/TestimonialsSection";
+import CTASection from "@/src/components/Landing/CTASection";
+import ServicesSection from "@/src/components/Landing/ServicesSection";
+import HeroSection from "@/src/components/Landing/HeroSection";
 
 export default function Home() {
   return (
