@@ -1,7 +1,7 @@
 "use client";
 
-import { LandingCompanyInfo } from "@/src/api/types/company";
-import { useCompanyStore } from "@/src/stores/company-store";
+import { LandingCompanyInfo } from "@/api/types/company";
+import { useCompanyStore } from "@/stores/company-store";
 import { useEffect } from "react";
 
 interface CompanyInfoClientProps {

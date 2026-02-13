@@ -1,6 +1,6 @@
-import SectionBadge from "@/src/components/ui/SectionBadge";
+import SectionBadge from "@/components/ui/SectionBadge";
 import { getTranslations } from "next-intl/server";
-import { FeatureCard } from "@/src/components/ui/FeatureCard";
+import { FeatureCard } from "@/components/ui/FeatureCard";
 import { BarChart3, Globe, HeadphonesIcon, Lock, LucideIcon, Shield, Zap } from "lucide-react";
 
 const featureIcons:LucideIcon[] = [Shield, Zap, Lock, Globe, HeadphonesIcon, BarChart3];

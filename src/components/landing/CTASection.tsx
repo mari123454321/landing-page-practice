@@ -1,5 +1,5 @@
-import SectionBadge from "@/src/components/ui/SectionBadge";
-import { Button } from '@/src/components/ui/button';
+import SectionBadge from "@/components/ui/SectionBadge";
+import { Button } from '@/components/ui/button';
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { getTranslations } from "next-intl/server";

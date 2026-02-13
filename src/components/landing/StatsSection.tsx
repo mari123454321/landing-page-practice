@@ -1,8 +1,7 @@
-import { Button } from "@/src/components/ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowRight, Award, Globe, LucideIcon, TrendingUp, Users } from "lucide-react";
+import { ArrowRight, Award, Globe, TrendingUp, Users } from "lucide-react";
 import { getTranslations } from "next-intl/server";
-import { createElement } from "react";
 
 const icons = [<Users />, <TrendingUp />, <Globe />, <Award />];
 

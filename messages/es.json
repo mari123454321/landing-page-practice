@@ -57,66 +57,6 @@
       "2": "Acceso a mercados globales"
     }
   },
-  "heroDashboard": {
-    "brand": {
-      "logo": "C",
-      "name": "capwise"
-    },
-    "navItems": {
-      "0": "Panel",
-      "1": "Intercambio",
-      "2": "Billetera",
-      "3": "Mercado"
-    },
-    "stats": {
-      "bitcoin": {
-        "label": "Bitcoin",
-        "sublabel": "BTC/USD"
-      },
-      "change": {
-        "label": "Cambio 24h",
-        "value": "+0.53%"
-      },
-      "lastPrice": {
-        "label": "Ultimo Precio",
-        "value": "18,372.59 USD"
-      },
-      "low": {
-        "label": "Minimo 24h",
-        "value": "18,372.59 USD"
-      }
-    },
-    "sidebar": {
-      "currency": "Bitcoin",
-      "balanceLabel": "Saldo Actual",
-      "balance": "4,000",
-      "balanceUnit": "BTC",
-      "volumeLabel": "Volumen (24h)",
-      "volumeChange": "+2.36%",
-      "usdValue": "4,000",
-      "usdUnit": "USD",
-      "buyButton": "Comprar",
-      "sellButton": "Vender"
-    }
-  },
-  "tradingInstruments": {
-    "crypto": {
-      "label": "Cripto",
-      "description": "Pares cripto principales en tiempo real"
-    },
-    "forex": {
-      "label": "Forex",
-      "description": "Pares FX principales y precios"
-    },
-    "commodities": {
-      "label": "Materias Primas",
-      "description": "Oro, petroleo, gas y mas"
-    },
-    "stocks": {
-      "label": "Acciones",
-      "description": "Acciones e indices populares"
-    }
-  },
   "services": {
     "items": {
       "cryptoTrading": "Trading de Cripto",
@@ -245,5 +185,1155 @@
       "1": "Sin comisiones ocultas",
       "2": "Retiros instantaneos"
     }
+  },
+  "aboutUs": {
+    "expertise": {
+      "email": {
+        "title": "Correo electrónico"
+      },
+      "office": {
+        "address": "Rue du Pré-de-la-Bichette 3, 1201 Ginebra, Suiza",
+        "title": "Oficina:"
+      },
+      "subtitle": "Nada debería impedirte alcanzar tus objetivos.",
+      "title": "Experiencia en inversión"
+    },
+    "hero": {
+      "description": "Somos una de las organizaciones líderes mundiales en trading online, que ofrece a operadores principiantes y experimentados acceso rápido a una amplia gama de instrumentos de trading. Llevamos más de diez años en el sector del trading online y actualmente somos líderes del mercado. Nos complace ofrecer al mayor número de operadores los mejores estándares de seguridad, tecnología y técnicas de trading.",
+      "title": "Quiénes somos"
+    },
+    "howItWorks": {
+      "description": "En {companyName}, Hemos cultivado un entorno de trading que prioriza la seguridad, la velocidad, las herramientas optimizadas y mucho más para mejorar su experiencia. Nuestro equipo de expertos financieros profesionales ha reunido un completo arsenal de herramientas e instrumentos de trading para facilitar operaciones informadas y sencillas en diversos mercados. Ofrecemos seguridad, velocidad, facilidad de acceso, retiros rápidos y múltiples opciones de depósito. Template3 se compromete a brindarle apoyo profesional mientras explora los mercados financieros.",
+      "label": "Sobre nosotros",
+      "title": "¿Cómo funciona?"
+    },
+    "whatWeOffer": {
+      "integrity": {
+        "description": "Nuestro principal objetivo es incluir las opiniones de los operadores en el proceso de toma de decisiones. Lo que nos distingue del resto de competidores del mercado es nuestra disposición a escuchar las opiniones, solicitudes e ideas de los operadores para mejorar los bienes y servicios. Cualquier cambio en un producto o servicio se hace público y nuestros operadores reciben notificaciones por correo electrónico.",
+        "title": "Integridad"
+      },
+      "latestTechnologies": {
+        "description": "Nuestro enfoque de crecimiento empresarial prioriza la innovación y fomentamos la implementación de cualquier nueva tecnología de trading que haya sido evaluada exhaustivamente en nuestros laboratorios internos. Las inversiones y las actividades financieras se ven facilitadas por la tecnología, en particular por el software que automatiza y acelera el proceso de trading.",
+        "title": "Últimas tecnologías"
+      },
+      "security": {
+        "description": "Para las transacciones en línea, utilizamos las medidas de seguridad de datos más estrictas. Miles de operadores de todo el mundo se han beneficiado de nuestras soluciones de trading, que han moldeado su experiencia, ambiciones y Objetivos.",
+        "title": "Seguridad"
+      },
+      "title": "Qué ofrecemos",
+      "tradingGuidance": {
+        "description": "Nuestro personal siempre está dispuesto a ayudar a nuestros clientes a ampliar su experiencia y a convertirse en inversores más expertos. Por ello, nuestros expertos representantes de atención al cliente están disponibles las 24 horas del día, los cinco días de la semana.",
+        "title": "Orientación para el trading"
+      }
+    }
+  },
+  "accountTypes": {
+    "accounts": {
+      "diamond": {
+        "education": "Intensivo",
+        "name": "Diamante"
+      },
+      "gold": {
+        "education": "Especialista",
+        "name": "Oro"
+      },
+      "platinum": {
+        "education": "Profesional",
+        "name": "Platino"
+      },
+      "silver": {
+        "education": "Principiante",
+        "name": "Plata"
+      },
+      "vip": {
+        "education": "Avanzado",
+        "name": "VIP"
+      }
+    },
+    "description": "Encuentra la cuenta que se adapta a tu estilo de trading, desde spreads bajos hasta herramientas avanzadas, diseñada para traders de todos los niveles.",
+    "features": {
+      "commissions": "Comisiones",
+      "education": "Educación",
+      "leadingBroker": "Bróker Líder",
+      "leverage": "Apalancamiento",
+      "loyaltyProgram": "Programa de Fidelización",
+      "minimumLot": "Lote Mínimo",
+      "negativeBalance": "Protección contra Saldo Negativo",
+      "signals": "Señales",
+      "specialOffers": "Ofertas Especiales",
+      "support": "Soporte"
+    },
+    "openAccount": "Abrir Cuenta",
+    "title": "Tipos de Cuenta"
+  },
+  "accountTypes2": {
+    "features": {
+      "aiTradingSoftware": "Software de Trading con IA",
+      "arbitrageTrading": "Operaciones de arbitraje",
+      "bonusPromotions": "Promociones de bonificación",
+      "customerService": "Atención al cliente 24/5",
+      "dailyMarketReviews": "Revisiones diarias del mercado",
+      "leverage": "Apalancamiento",
+      "liveSessions": "Sesiones en vivo con el gestor de cuentas",
+      "minimumDeposit": "Depósito mínimo",
+      "nfpTradingSignals": "Señales de trading de NFP",
+      "spreads": "Spreads",
+      "tradingAlerts": "Alertas de trading y análisis de eventos",
+      "tradingTools": "Herramientas de trading",
+      "vipMentorship": "Programa de mentoría VIP",
+      "withdrawals": "Retiros"
+    },
+    "hero": {
+      "button": "COMIENZA A OPERAR",
+      "subtitle": "Nuestra misión es alcanzar tus objetivos. Opera con las condiciones de trading más convenientes.",
+      "title": "Cuentas de trading"
+    },
+    "openAccount": "ABRIR CUENTA",
+    "tiers": {
+      "bronze": "Bronce",
+      "golden": "Dorado",
+      "platinum": "Platino",
+      "silver": "Plata",
+      "trial": "Prueba",
+      "vip": "VIP"
+    },
+    "values": {
+      "aiTradingSoftware": {
+        "bronze": "IA Avanzada",
+        "golden": "IA de Inteligencia de Élite",
+        "platinum": "IA de Próxima Generación",
+        "silver": "IA Premium",
+        "trial": "IA Inteligente",
+        "vip": "IA de Próxima Generación"
+      },
+      "bonusPromotions": {
+        "bronze": "30%",
+        "golden": "50%",
+        "platinum": "70%",
+        "silver": "40%",
+        "trial": "20%",
+        "vip": "70%"
+      },
+      "customerService": {
+        "bronze": "Correo electrónico + En vivo chat",
+        "golden": "Correo electrónico + Chat en vivo",
+        "platinum": "Correo electrónico + Chat en vivo",
+        "silver": "Correo electrónico + Chat en vivo",
+        "trial": "✓",
+        "vip": "Correo electrónico + Chat en vivo"
+      },
+      "leverage": {
+        "bronze": "Hasta 1:20",
+        "golden": "Hasta 1:50",
+        "platinum": "Hasta 1:75",
+        "silver": "Hasta 1:40",
+        "trial": "Hasta 1:10",
+        "vip": "Hasta 1:100"
+      },
+      "liveSessions": {
+        "bronze": "2 veces por semana",
+        "golden": "Diariamente",
+        "platinum": "Ilimitado",
+        "silver": "3 veces por semana",
+        "trial": "1 vez por semana",
+        "vip": "Ilimitado"
+      },
+      "minimumDeposit": {
+        "bronze": "5000 €",
+        "golden": "50 000 €",
+        "platinum": "250 000 €",
+        "silver": "20 000 €",
+        "trial": "250 €",
+        "vip": "500 000 €"
+      },
+      "nfpTradingSignals": {
+        "bronze": "Regular - 2/día",
+        "golden": "VIP - 5/día",
+        "platinum": "Prioritario - 10/día",
+        "silver": "Regular - 3/día",
+        "trial": "Regular - 1/día",
+        "vip": "Prioritario - 10/día"
+      },
+      "spreads": {
+        "bronze": "Ligeramente reducido",
+        "golden": "Spreads más bajos que en Silver",
+        "platinum": "Spreads más bajos que Gold",
+        "silver": "Spreads más bajos que Bronze",
+        "trial": "Standard",
+        "vip": "Spreads más bajos que Platinum"
+      },
+      "tradingTools": {
+        "bronze": "Acceso a actualizaciones diarias de los mercados",
+        "golden": "Acceso a actualizaciones diarias de los mercados",
+        "platinum": "Acceso a actualizaciones diarias de los mercados",
+        "silver": "Acceso a actualizaciones diarias de los mercados",
+        "trial": "Gráficos e indicadores básicos",
+        "vip": "Acceso a actualizaciones diarias de los mercados"
+      },
+      "withdrawals": {
+        "bronze": "Hasta 48 horas",
+        "golden": "Hasta 48 horas",
+        "platinum": "Hasta 48 horas",
+        "silver": "Hasta 48 horas",
+        "trial": "Procesamiento estándar hasta 72 horas",
+        "vip": "Hasta 48 horas"
+      }
+    }
+  },
+  "aml": {
+    "section1": {
+      "p1": "{companyName} tiene una política de tolerancia cero hacia el lavado de dinero y colabora activamente en la lucha contra esta práctica.",
+      "p2": "{companyName} mantiene actualmente una política de no lavado de dinero. Según esta política, la empresa se adhiere estrictamente a las siguientes normas:",
+      "title": "Política de Tolerancia Cero"
+    },
+    "section2": {
+      "p1": "La empresa se adhiere estrictamente a las siguientes normas:",
+      "rule1": "Garantizar la identificación confiable de cada cliente",
+      "rule2": "Registrar información sobre el cliente",
+      "rule3": "Detectar entre los clientes a personas asociadas con el terrorismo y transacciones financieras ilegales",
+      "rule4": "Hacer entender a los clientes que la información proporcionada a la empresa puede usarse para verificar su identidad",
+      "rule5": "Supervisar de cerca las transacciones de los clientes con fondos",
+      "rule6": "No aceptar efectivo, transferencias de dinero, transacciones de terceros, transferencias de casas de cambio o transferencias de Western Union",
+      "title": "Normas de la Política"
+    },
+    "section3": {
+      "p1": "Existen casos de lavado de dinero, en los que fondos provenientes de actividades ilegales o criminales pasan por el sistema financiero como si provinieran de fuentes legítimas.",
+      "p2": "Generalmente, hay tres etapas en el lavado de dinero:",
+      "stage1": "Primero, se introduce efectivo o equivalentes de efectivo en el sistema financiero.",
+      "stage2": "En segundo lugar, se utilizan otras cuentas para transferir dinero (por ejemplo, cuentas de futuros). Esto es posible mediante una serie de transacciones financieras diseñadas para ocultar el origen del dinero (por ejemplo, realizando operaciones con poco o ningún riesgo financiero o transfiriendo saldos de cuentas a otras cuentas).",
+      "stage3": "Finalmente, los fondos recibidos de fuentes legítimas se reintegran a la circulación (por ejemplo, cerrando una cuenta de futuros y transfiriendo los fondos a una cuenta bancaria).",
+      "title": "Etapas del Lavado de Dinero"
+    },
+    "section4": {
+      "p1": "Las cuentas de trading con una compañía de corretaje son una forma frecuente de lavar cantidades ilegales o de ocultar información sobre el verdadero propietario de los fondos. En particular, una cuenta de trading puede usarse para realizar transacciones financieras que permitan ocultar la fuente de los ingresos.",
+      "title": "Riesgos de las Cuentas de Trading"
+    },
+    "section5": {
+      "p1": "Para prevenir el lavado de dinero, {companyName} devuelve el dinero a la fuente original de la remesa.",
+      "title": "Medidas de Prevención"
+    },
+    "section6": {
+      "p1": "Existen requisitos de las organizaciones internacionales contra el lavado de dinero: las empresas de servicios financieros deben estar atentas a posibles abusos de lavado de dinero que puedan ocurrir en la cuenta de trading de un cliente; insisten en implementar un programa proactivo para detectar, disuadir y reportar actividades sospechosas potenciales. {companyName} cumple plenamente con las recomendaciones de las organizaciones internacionales para combatir los flujos financieros ilícitos y proteger a la empresa y a sus clientes.",
+      "title": "Requisitos Internacionales"
+    },
+    "section7": {
+      "p1": "Si tiene alguna pregunta o comentario sobre las políticas de prevención de lavado de dinero de la empresa, contáctenos por correo electrónico a {companyEmail}.",
+      "title": "Información de Contacto"
+    },
+    "title": "Política Anti-Lavado de Dinero"
+  },
+  "Choose": {
+    "badge": "POR QUÉ ELEGIRNOS",
+    "bitcoin": {
+      "change": "0,53%",
+      "label": "Bitcoin",
+      "lastPrice": "Último Precio",
+      "lastPriceChange": "-0,12%",
+      "lastPriceValue": "1223,595198 USD",
+      "low24h": "Mínimo 24h",
+      "low24hChange": "-0,13%",
+      "low24hValue": "342,595198 USD",
+      "pair": "BTC/USD"
+    },
+    "description": "Dolor senectus diam ac pharetra a. Sagittis iaculis hac dictum amet massa mauris facilisi natoque maximus risus praesent.",
+    "features": {
+      "advancedTraining": {
+        "description": "Herramientas y plataformas de vanguardia para mejorar tu conocimiento en inversiones y tu capacidad de toma de decisiones.",
+        "title": "Tecnología de Formación Avanzada"
+      },
+      "comprehensiveSolutions": {
+        "description": "Servicios financieros integrales adaptados a tus objetivos y circunstancias únicas.",
+        "title": "Soluciones Integrales de Patrimonio"
+      },
+      "continuousTracking": {
+        "description": "Monitoreo y reportes en tiempo real para mantenerte informado sobre el rendimiento de tus inversiones.",
+        "title": "Seguimiento Continuo del Rendimiento"
+      },
+      "personalizedStrategies": {
+        "description": "Estrategias de inversión adaptadas a tus necesidades y objetivos, optimizando cada decisión para tu crecimiento financiero.",
+        "title": "Estrategias de Inversión Personalizadas"
+      }
+    },
+    "heading": "Construyendo Futuros Financieros con Experiencia e Integridad.",
+    "imageAlt": "Espacio de trabajo de trading con laptop y teléfono mostrando gráficos financieros"
+  },
+  "Client": {
+    "badge": "OPINIONES Y RESEÑAS DE CLIENTES",
+    "heading": "El éxito comienza con una gestión financiera inteligente.",
+    "stats": {
+      "businessGrowth": {
+        "description": "Elementum sociosqu netus turpis justo felis libero cras",
+        "label": "Crecimiento empresarial",
+        "value": "68%"
+      },
+      "userReviews": {
+        "label": "Reseñas de usuarios",
+        "value": "4.7"
+      }
+    },
+    "testimonial1": "{companyName} hizo del mundo complejo El proceso de financiación empresarial es fácil de gestionar. Su experiencia nos permitió centrarnos en el crecimiento de nuestra empresa mientras ellos gestionaban nuestros retos financieros con facilidad.",
+    "testimonial2": "{companyName} nos ayudó a conseguir la financiación que necesitábamos urgentemente para expandirnos. Su equipo fue profesional, eficiente y siempre estuvo disponible para responder a nuestras preguntas. No habríamos podido crecer sin ellos.",
+    "testimonial3": "Las estrategias financieras de {companyName} transformaron nuestros problemas de flujo de caja en un crecimiento sostenible. Nos brindaron una orientación clara en cada paso del camino y ahora somos más rentables que nunca."
+  },
+  "company": {
+    "section1": {
+      "p1": "{companyName} Limited es un proveedor líder de servicios financieros especializado en soluciones de trading online. Fundada hace más de una década, nos hemos consolidado como un socio de confianza para traders de todo el mundo, ofreciendo acceso a diversos mercados financieros, como forex, criptomonedas, materias primas, índices y acciones.",
+      "p2": "Nuestro compromiso con la excelencia nos ha posicionado como líderes del sector, atendiendo a miles de clientes en varios continentes. Combinamos tecnología de vanguardia con un servicio personalizado para ofrecer una experiencia de trading inigualable.",
+      "title": "Descripción de la empresa"
+    },
+    "section2": {
+      "p1": "Nuestra misión es democratizar el acceso a los mercados financieros globales mediante soluciones de trading innovadoras que empoderan tanto a operadores principiantes como experimentados. Nos esforzamos por crear un entorno donde cada cliente pueda alcanzar sus objetivos financieros a través de servicios de trading transparentes, seguros y eficientes.",
+      "title": "Nuestra misión"
+    },
+    "section3": {
+      "p1": "Visualizamos un futuro donde los mercados financieros sean accesibles para todos, independientemente de su ubicación o nivel de experiencia. A través de la innovación continua y un compromiso inquebrantable con el éxito del cliente, aspiramos a convertirnos en la plataforma de trading en línea más confiable del mundo, estableciendo nuevos estándares de excelencia en el servicio financiero.es industry.",
+      "title": "Nuestra Visión"
+    },
+    "section4": {
+      "p1": "La integridad, la transparencia y la orientación al cliente son la base de todo lo que hacemos. Creemos en construir relaciones a largo plazo basadas en la confianza y el éxito mutuo. Nuestros valores guían nuestras decisiones y acciones, garantizando que siempre prioricemos los mejores intereses de nuestros clientes, manteniendo al mismo tiempo los más altos estándares éticos de la industria.",
+      "title": "Nuestros Valores"
+    },
+    "section5": {
+      "p1": "Desde nuestra fundación, {companyName} ha pasado de ser una pequeña startup a una plataforma de trading reconocida mundialmente. Nuestra trayectoria se ha caracterizado por la innovación continua, las alianzas estratégicas y un enfoque inquebrantable en la satisfacción del cliente. A lo largo de los años, hemos ampliado nuestra oferta de servicios, mejorado nuestra infraestructura tecnológica y formado un equipo de profesionales dedicados y comprometidos con la excelencia.",
+      "title": "Historia de la Empresa"
+    },
+    "section6": {
+      "p1": "Nuestro equipo directivo reúne décadas de experiencia combinada en mercados financieros, tecnología y gestión empresarial. Liderados por veteranos de la industria que comprenden las complejidades del comercio global, nuestros ejecutivos se comprometen a impulsar la innovación, manteniendo los más altos estándares de cumplimiento normativo y protección del cliente.",
+      "title": "Equipo de Liderazgo"
+    },
+    "section7": {
+      "p1": "Con oficinas estratégicamente ubicadas en los principales centros financieros, {companyName} atiende a clientes en más de 150 países. Nuestra presencia global nos permite brindar soporte localizado, manteniendo una calidad de servicio consistente en todas las regiones. Nos enorgullece ser una empresa verdaderamente internacional que comprende y respeta las diversas necesidades de nuestra base global de clientes.",
+      "title": "Presencia Global"
+    },
+    "section8": {
+      "p1": "{companyName} opera bajo estricta supervisión regulatoria y cuenta con todas las licencias necesarias para brindar servicios financieros. Cumplimos con los estándares internacionales de prevención del lavado de dinero, procedimientos de conocimiento del cliente y protección de los fondos de los clientes. Nuestro compromiso con el cumplimiento normativo garantiza que nuestros clientes puedan operar con confianza, sabiendo que sus intereses están protegidos por sólidos marcos legales y operativos.",
+      "title": "Cumplimiento Normativo"
+    },
+    "title": "Información de la Empresa"
+  },
+  "digitalCurrencies": {
+    "paragraph1": "La Moneda Digital es un tipo de pago electrónico que no depende de los bancos para validar las transacciones. Es un sistema de multidifusión que permite a cualquier persona generar y recibir dinero desde cualquier lugar.",
+    "paragraph2": "Las monedas digitales se basan en un libro de contabilidad público distribuido conocido como blockchain, que es un registro permanente de todas las transacciones que es actualizado y mantenido por los titulares de las monedas.",
+    "paragraph3": "Las unidades monetarias digitales se forman mediante un método conocido como minería, que implica el uso de control informático para resolver problemas matemáticos complejos que afectan a las monedas. Además, los usuarios pueden comprar las monedas a través de corredores y luego almacenarlas y gastarlas usando billeteras cifradas.",
+    "title": "¿Cómo funciona?"
+  },
+  "Explore": {
+    "badge": "NUESTROS SERVICIOS",
+    "description": "Pretium imperdiet suscipit eu lobortis fermentum. Inceptos magna natoque mollis tristique lacinia potenti molestie venenatis. Viverra augue ridiculus quisque nibh bibendum quam.",
+    "heading": "Explore hoy nuestra gama completa de servicios de inversión.",
+    "imageAlt": "Profesionales de negocios celebrando el éxito",
+    "metrics": {
+      "averageRoi": {
+        "label": "LOGRO DE ROI PROMEDIO",
+        "value": "77%"
+      },
+      "clientsExceed": {
+        "label": "CLIENTES SUPERAN LAS PROYECCIONES",
+        "value": "61%"
+      },
+      "firstYearGrowth": {
+        "label": "TASA DE CRECIMIENTO DEL PRIMER AÑO",
+        "value": "73%"
+      },
+      "marketBeat": {
+        "label": "TASA DE SUPERACIÓN DEL MERCADO",
+        "value": "68%"
+      }
+    },
+    "trustpilot": {
+      "badge": "EXCELENTE",
+      "brand": "Trustpilot",
+      "rating": "4.7",
+      "reviewCount": "Basado en 1038 reseñas"
+    }
+  },
+  "Footer": {
+    "bottomLinks": {
+      "amlPolicy": "POLÍTICA CONTRA EL LAVADO DE CAPITALES",
+      "privacyPolicy": "POLÍTICA DE PRIVACIDAD",
+      "termsAndConditions": "TÉRMINOS Y CONDICIONES"
+    },
+    "bottomText": {
+      "address": "Rue du Pré-de-la-Bichette 3, 1201 Ginebra, Suiza",
+      "copyright": "Copyright © 2025 Glenfordcap Trading",
+      "register": "Registrado por MICA Consulting Ltd"
+    },
+    "createAccount": "CREAR UNA NUEVA CUENTA",
+    "legalAgreements": {
+      "amlPolicy": "Política contra el blanqueo de capitales",
+      "kycPolicy": "Política KYC",
+      "privacyPolicy": "Política de privacidad",
+      "termsAndConditions": "Términos y condiciones",
+      "title": "Acuerdos legales"
+    },
+    "marketTrading": {
+      "accountTypes": "Tipos de cuenta",
+      "paymentMethods": "Métodos de pago",
+      "title": "Operaciones en el mercado",
+      "tradingNews": "Noticias de trading"
+    },
+    "ourCompany": {
+      "aboutUs": "Sobre nosotros",
+      "ourSupport": "Nuestro soporte",
+      "title": "Nuestra Empresa"
+    },
+    "tradingPlatform": {
+      "glenford": "Empresa",
+      "title": "Plataforma de Trading"
+    },
+    "tradingProducts": {
+      "digitalCurrencies": "Monedas Digitales",
+      "forex": "Forex",
+      "goods": "Bienes",
+      "indices": "Índices",
+      "shares": "Acciones",
+      "title": "Productos de Trading"
+    },
+    "userLogin": "INICIO DE SESIÓN DE USUARIO"
+  },
+  "forex": {
+    "paragraph1": "El trading de Forex, en su nivel más básico, es comparable al cambio de divisas que se realiza al viajar al extranjero: un operador compra una moneda y vende otra, y el tipo de cambio fluctúa con frecuencia debido a la oferta y la demanda.",
+    "paragraph2": "El mercado de divisas, un mercado mundial que opera 24 horas al día de lunes a viernes, es donde se transaccionan las monedas. El trading de Forex se realiza completamente fuera de bolsa (OTC), lo que significa que no hay transacción física y el mercado está supervisado por una red mundial de bancos y otras instituciones financieras.",
+    "paragraph3": "El mercado de Forex está dominado por operadores institucionales, como los empleados de bancos, fondos de cobertura y organizaciones multinacionales. Estos operadores no siempre buscan adquirir la custodia real de las monedas; a veces especulan o se cubren ante futuras fluctuaciones del tipo de cambio.",
+    "title": "¿Cómo Funciona?"
+  },
+  "Global": {
+    "assetCompany": {
+      "description": "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      "title": "Gestión de Empresas de Activos"
+    },
+    "cta": {
+      "button": "Comenzar",
+      "description": "Semper tortor feugiat habitant dolor eget netus. Orci letius lacinia primis cubilia proin fusce pharetra mus morbi penatibus.",
+      "heading": "Únete a {companyName} e Invierte con Confianza."
+    },
+    "globalWealth": {
+      "description": "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      "title": "Gestión de Patrimonio Global"
+    },
+    "personalCorporate": {
+      "description": "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      "title": "Banca Personal y Corporativa"
+    },
+    "stats": {
+      "accountRetention": {
+        "label": "Retención de Cuentas",
+        "value": "99%"
+      },
+      "assetsManaged": {
+        "label": "Activos Gestionados",
+        "value": "12B+"
+      },
+      "happyClient": {
+        "label": "Clientes Satisfechos",
+        "value": "27K+"
+      },
+      "projectDone": {
+        "label": "Proyectos Completados",
+        "value": "34K+"
+      }
+    },
+    "tradingBank": {
+      "description": "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      "title": "Trading e Inversiones Bancarias"
+    }
+  },
+  "goods": {
+    "paragraph1": "Los inversores compran y venden materias primas a través de contratos de futuros negociados en bolsa o contratos a plazo extrabursátiles. Esto prácticamente implica que los precios se deciden con meses de antelación, y estas bolsas estandarizan la cantidad y la calidad mínima de la materia prima. En el mercado físico de materias primas, habrá un intercambio real de los productos. Además, un fabricante de cereales para el desayuno puede comprar un contrato de futuros de maíz con una fecha de entrega dentro de varios meses... Por lo tanto, comprar maíz mediante un contrato de futuros protege al comprador si el precio de mercado futuro del maíz supera el precio acordado.",
+    "paragraph2": "Con la certeza de que la transacción se llevará a cabo, ambas partes pueden planificar y presupuestar con confianza. Sin embargo, la mayoría de los comerciantes de materias primas no toman posesión física de los productos.",
+    "paragraph3": "Los especuladores o comerciantes de materias primas asumen una posición financiera (larga o corta) en una materia prima específica. Esto se puede lograr mediante el uso de una plataforma de negociación en línea.",
+    "title": "¿Cómo Funciona?"
+  },
+  "Header": {
+    "aboutUs": "Sobre nosotros",
+    "accountTypes": "Tipos de cuenta",
+    "blog": "Blog",
+    "consulting": "Consultoría",
+    "contactUs": "Contáctanos",
+    "getStarted": "Comienza",
+    "home1": "Inicio 1",
+    "home2": "Inicio 2",
+    "homepage": "Página de inicio",
+    "mobileApps": "Aplicaciones móviles",
+    "pages": "Páginas",
+    "portfolio": "Portafolio",
+    "profile": "Perfil",
+    "services": "Servicios",
+    "signIn": "Iniciar sesión",
+    "team": "Equipo",
+    "webDevelopment": "Desarrollo web"
+  },
+  "Hero": {
+    "badge": "BIENVENIDO A {companyName}",
+    "description": "Tu camino hacia la libertad financiera comienza aquí con {companyName}. Deja que nuestras estrategias expertas y nuestra orientación personalizada te ayuden a generar un patrimonio duradero y a alcanzar tus objetivos de inversión con confianza.",
+    "getStarted": "Comienza",
+    "learnMore": "Aprende más",
+    "title": "Tu camino hacia la libertad financiera comienza aquí"
+  },
+  "indices": {
+    "paragraph1": "Operar con índices es un método común para que los inversores adquieran exposición a los mercados financieros sin investigar ni invertir directamente en acciones de empresas. Operar con índices bursátiles es una forma de mitigar el riesgo.Estrategia de inversión para la negociación de acciones. Un índice se construye normalmente como un promedio ponderado de los precios de las empresas que lo componen. Cualquier índice especifica los requisitos que una empresa debe cumplir para ser incluida.",
+    "paragraph2": "Al monitorear el rendimiento de un gran número de acciones, un índice intenta capturar el estado de un amplio sector industrial o del mercado bursátil de un país en su conjunto. Para que los inversores compren y vendan, los proveedores de fondos desarrollan fondos indexados activos y pasivos, así como derivados.",
+    "paragraph3": "Los índices sirven como barómetro del rendimiento del mercado bursátil en su conjunto. La dirección del valor de un índice revela la salud de la economía o del sector industrial.",
+    "title": "¿Cómo funciona?"
+  },
+  "kyc": {
+    "section1": {
+      "p1": "Hoy en día, el cumplimiento de las políticas de Conozca a su Cliente (KYC) respecto a los clientes es la prioridad número uno entre las empresas del sector financiero. La política tiene como objetivo prevenir el robo de identidad, el blanqueo de capitales, el fraude financiero y las actividades terroristas.",
+      "p2": "{companyName} es totalmente tolerante con el fraude financiero y toma todas las medidas preventivas necesarias para combatir diversos tipos de fraude financiero.",
+      "p3": "Cualquier actividad fraudulenta se registrará y documentará; todas las cuentas asociadas se cerrarán inmediatamente y los fondos en ellas se congelarán.",
+      "title": "Introducción"
+    },
+    "section2": {
+      "p1": "{companyName} se esfuerza por garantizar la seguridad de cualquier información confidencial a la que tenga acceso directo la empresa. Estos incluyen los detalles de la cuenta de trading del cliente y las transacciones realizadas por este para garantizar la seguridad de sus datos personales, lo que obliga a la empresa a exigirle el estricto cumplimiento de varias normas.",
+      "title": "ADVERTENCIA"
+    },
+    "section3": {
+      "p1": "Proporcione una copia de un pasaporte válido con firma",
+      "p2": "Proporcione copias de las tarjetas de pago para realizar un depósito (anverso con los últimos 4 dígitos del número de cuenta, reverso con el CVV)",
+      "p3": "Se debe proporcionar una copia de las facturas de servicios públicos que muestren el nombre y la dirección residencial del cliente",
+      "p4": "Historial de transacciones en línea firmado",
+      "title": "Documentos requeridos"
+    },
+    "section4": {
+      "p1": "{companyName} exige encarecidamente al cliente que proporcione todos los documentos necesarios antes de retirar fondos de la cuenta de trading.",
+      "p2": "En algunos casos, la empresa puede solicitar estos documentos antes de permitir cualquier otra actividad en la cuenta de trading, como depósitos o Operaciones.",
+      "p3": "Tenga en cuenta que si el cliente no envía los documentos necesarios a la empresa, las solicitudes de retiro se cancelarán y los fondos se devolverán a su cuenta de operaciones. En este caso, la empresa informará al cliente a través del sistema de mensajería interna.",
+      "title": "¿Cuándo proporcionar documentos?"
+    },
+    "section5": {
+      "p1": "Escanee los documentos o tome fotos de alta resolución. Guarde las fotos en formato JPEG con mínima compresión. Luego, envíe todas las fotos al departamento de Recursos Humanos de la empresa.",
+      "title": "¿Cómo enviar documentos?"
+    },
+    "section6": {
+      "p1": "{companyName} asume una política de protección de la documentación personal muy responsable. Los documentos enviados a la empresa se tratan con la máxima confidencialidad. Todos los archivos que recibe la empresa están completamente protegidos gracias al máximo nivel de cifrado en cada etapa de la revisión de documentos.",
+      "title": "Garantías de seguridad"
+    },
+    "section7": {
+      "p1": "¿Existen garantías de seguridad para los documentos enviados? {companyName} asume una postura muy responsable respecto a la protección de la documentación personal. Los documentos enviados a la empresa se tratan con la máxima confidencialidad.",
+      "title": "Protección de documentos"
+    },
+    "title": "Política KYC"
+  },
+  "login": {
+    "activeTraders": "Active Traders",
+    "backToHome": "Volver a la página principal",
+    "benefits": {
+      "advancedTools": "Herramientas avanzadas de trading y datos de mercado en tiempo real",
+      "customerSupport": "Atención al cliente 24/7 y recursos educativos",
+      "pairAccess": "Acceso a más de 100 pares de criptomonedas",
+      "secureWallet": "Monedero seguro con protección líder en la industria"
+    },
+    "countries": "Países",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "emailOrUsername": "Correo electrónico o nombre de usuario",
+    "emailOrUsernamePlaceholder": "Introduce tu correo electrónico o nombre de usuario",
+    "enter2fa": "Introduce el código 2FA",
+    "enterEmailOrUsername": "Ingresa tu correo electrónico o nombre de usuario",
+    "enterPassword": "Ingresa tu contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "placemail": "Ingresa tu correo electrónico",
+    "placepass": "Ingresa tu contraseña",
+    "rememberMe": "Recuérdame",
+    "rightSide": {
+      "activeTraders": "Traders activos",
+      "activeTradersValue": "500K+",
+      "countries": "Países",
+      "countriesValue": "180+",
+      "feature1": "Acceso a más de 100 pares de criptomonedas",
+      "feature2": "Herramientas avanzadas de trading y datos de mercado en tiempo real",
+      "feature3": "Monedero seguro con protección líder en la industria",
+      "feature4": "Atención al cliente 24/7 y recursos educativos",
+      "title": "Empieza a operar hoy",
+      "totalVolume": "Volumen total de operaciones",
+      "totalVolumeValue": "Más de 2.800 millones de dólares"
+    },
+    "signIn": "Iniciar sesión",
+    "signingIn": "Iniciando sesión...",
+    "signUp": "Registrarse",
+    "startTrading": "Empieza a operar hoy",
+    "subtitle": "Bienvenido de nuevo a tu plataforma de trading",
+    "title": "Iniciar sesión",
+    "totalVolume": "Volumen total de operaciones",
+    "twoFactorCode": "Código de dos factores",
+    "twoFactorCodePlaceholder": "Introduce el código de 2FA",
+    "welcomeBack": "Bienvenido de nuevo a su plataforma de operaciones"
+  },
+  "Navigate": {
+    "button": "Comenzar",
+    "description": "Semper tortor feugiat habitant dolor eget netus. Orci letius lacinia primis cubilia proin fusce pharetra mus morbi penatibus.",
+    "heading": "Navegue por los mercados con confianza con nuestras estrategias comprobadas.",
+    "imageAlt": "Concepto de crecimiento financiero con monedas, plantas y bombillas"
+  },
+  "Offer": {
+    "badge": "LO QUE OFRECEMOS",
+    "description": "Molestie facilisis ex erat dapibus hendrerit sit consectetuer. Nibh faucibus turpis adipiscing curae dis at. Viverra feugiat efficitur eros euismod nisl iaculis montes erat a platea.",
+    "discoverMore": "Descubre más",
+    "exploreServices": "EXPLORAR SERVICIOS",
+    "heading": "Servicios de {companyName} Diseñados para un Crecimiento Patrimonial Más Inteligente.",
+    "investmentPlanning": {
+      "description": "Eros hendrerit nulla quis est ligula penatibus ullamcorper semper taciti",
+      "title": "Planificación de Inversiones"
+    },
+    "portfolioManagement": {
+      "description": "Eros hendrerit nulla quis est ligula penatibus ullamcorper semper taciti",
+      "title": "Gestión de Carteras"
+    },
+    "wealthAdvisory": {
+      "description": "Eros hendrerit nulla quis est ligula penatibus ullamcorper semper taciti",
+      "title": "Asesoría Patrimonial"
+    }
+  },
+  "payments": {
+    "buttons": {
+      "deposits": "DEPÓSITOS",
+      "withdrawals": "RETIROS"
+    },
+    "fees": {
+      "depends": "Depende del banco del cliente."
+    },
+    "meta": {
+      "locale": "Configuración regional"
+    },
+    "methods": {
+      "billetera ewallet": "Billetera electrónica",
+      "maestro": "Maestro",
+      "transferencia bankTransfer": "Transferencia bancaria",
+      "visa": "VISA",
+      "visaMaster": "Visa/MasterCard",
+      "wire": "Transferencia"
+    },
+    "processing": {
+      "instantly": "Al instante"
+    },
+    "table": {
+      "fees": "Comisiones",
+      "method": "Método",
+      "processingTime": "TiempoDeProcesamiento"
+    }
+  },
+  "privacy": {
+    "section1": {
+      "p1": "La Política de Privacidad se esfuerza al máximo para garantizar que la privacidad, confidencialidad y seguridad de sus clientes se mantengan durante su interacción con la empresa y más allá, en la mayor medida posible para la empresa.",
+      "title": "Compromiso de Privacidad y Seguridad"
+    },
+    "section2": {
+      "p1": "Cuando los clientes se registran en {companyName}, confirman su disposición a compartir cierta información personal con la empresa, la cual utilizamos para verificar su identidad y garantizar la seguridad de sus depósitos y cuenta de operaciones. Esta información se recopila de acuerdo con nuestros estrictos procedimientos de verificación, que se utilizan para prevenir transacciones internacionales de lavado de dinero y garantizar la seguridad de las actividades comerciales de nuestros clientes en todas las etapas.",
+      "title": "Recopilación de Información"
+    },
+    "section3": {
+      "p1": "Nuestros clientes se comprometen a proporcionarnos información veraz, actualizada y precisa sobre su identidad. Además, deben declarar categóricamente que se registran y operan bajo su propio nombre y que nunca intentarán participar en ninguna actividad que pueda considerarse fraudulenta, ni suplantar la identidad de otros con ningún propósito.",
+      "title": "Compromiso del Cliente"
+    },
+    "section4": {
+      "p1": "Los procedimientos de recopilación de datos de {companyName} incluyen la recopilación de información del cliente libremente divulgada y proporcionada a la empresa, así como la instalación de cookies para recopilar datos sobre cómo el cliente interactúa con el sitio web de {companyName}. Estas herramientas de recopilación de información del cliente se utilizan para garantizar su propia seguridad, y todos los datos recopilados por la empresa se comparten únicamente con las personas de la empresa que participan en la verificación de la información de la cuenta del cliente con el fin expreso de garantizar su privacidad y seguridad.",
+      "title": "Procedimientos de recopilación de datos"
+    },
+    "section5": {
+      "p1": "{companyName} nunca divulgará información privada ni confidencial sobre nuestros clientes y antiguos clientes a terceros sin el consentimiento expreso por escrito de nuestros clientes, excepto en casos especiales en los que la divulgación sea requerida por ley o sea necesaria para realizar un análisis de diligencia debida de la identidad del cliente con el fin de proteger su identidad.Cuenta e información personal.",
+      "title": "Divulgación de información"
+    },
+    "section6": {
+      "p1": "Al registrarse en {companyName} e interactuar voluntariamente con los productos y servicios de Your Brand, los clientes reconocen y aceptan que consienten el uso de toda o parte de la información que proporcionan en relación con su cuenta comercial de {companyName}, las transacciones que realizan a través de ella y las interacciones que realizan con la empresa en nombre de esta. Todas las interacciones de los clientes con la empresa serán almacenadas por la empresa con fines de registro y, por lo tanto, podrán ser utilizadas por la empresa en caso de que surjan disputas entre los clientes y {companyName}.",
+      "title": "Consentimiento del cliente"
+    },
+    "section7": {
+      "p1": "{companyName} hace todo lo posible por mantener la confidencialidad de la información personal de sus clientes, incluyendo la implementación de procedimientos de seguridad de datos diseñados para garantizar su privacidad. {companyName} garantiza que su política de protección de datos se actualiza periódicamente para garantizar la protección de la información confidencial de sus clientes.",
+      "title": "Seguridad de Datos"
+    },
+    "section8": {
+      "p1": "De vez en cuando, {companyName} podría contactar a los clientes por teléfono o correo electrónico para proporcionarles información adicional sobre la negociación de opciones binarias de {companyName} o sobre la negociación en los mercados financieros. Además, la Compañía podría intentar contactar ocasionalmente a los clientes por teléfono o correo electrónico para informarles sobre ofertas promocionales exclusivas que {companyName} ofrece al cliente. Los clientes aceptan recibir dicha información al aceptar nuestros términos de uso al registrarse en {companyName}. Cualquier persona que desee cancelar su suscripción a {companyName} en cualquier momento tiene derecho a hacerlo simplemente contactando a la empresa por teléfono o correo electrónico y solicitando que no se realicen más contactos en nombre de la empresa.",
+      "title": "Política de Comunicación"
+    },
+    "title": "Política de Privacidad"
+  },
+  "register": {
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "back": "Volver a la página principal",
+    "backToHome": "Volver a la página principal",
+    "benefits": [
+      "Acceso a más de 100 pares de criptomonedas",
+      "Herramientas avanzadas de trading y datos de mercado en tiempo real",
+      "Monedero seguro con protección líder en la industria",
+      "Atención al cliente 24/7 y recursos educativos"
+    ],
+    "benefitsTitle": "Desbloquea tu potencial de trading",
+    "countries": "Países",
+    "country": "País",
+    "createAccount": "Crear cuenta",
+    "creatingAccount": "Creando cuenta...",
+    "dateOfBirth": "Fecha de nacimiento",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Nombre",
+    "language": "Idioma",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Apellido",
+    "loading": "Creando cuenta...",
+    "noCountriesFound": "No se encontraron países",
+    "noCountry": "No se encontró ningún país",
+    "noLanguage": "No se encontró ningún idioma",
+    "noLanguagesFound": "No se encontraron idiomas",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Crear una contraseña",
+    "pemail": "Ingresa tu correo electrónico",
+    "pfirstName": "Nombre",
+    "phoneNumber": "Número de teléfono",
+    "phoneNumberPlaceholder": "Ingresa tu número de teléfono",
+    "pickDate": "Elige una fecha",
+    "placeholder": {
+      "email": "Ingresa tu correo electrónico",
+      "firstName": "Ingresa tu nombre",
+      "lastName": "Ingresa tus apellidos",
+      "password": "Crea una contraseña",
+      "phoneNumber": "Ingresa tu número de teléfono",
+      "username": "Elige un nombre de usuario"
+    },
+    "plastName": "Apellidos",
+    "ppassword": "Ingresa la contraseña",
+    "pphoneNumber": "Ingresa el teléfono",
+    "pusername": "Nombre de usuario",
+    "rightSide": {
+      "activeTraders": "Operadores activos",
+      "activeTradersValue": "500K+",
+      "countries": "Países",
+      "countriesValue": "180+",
+      "feature1": "Acceso a más de 100 pares de criptomonedas",
+      "feature2": "Herramientas avanzadas de trading y datos de mercado en tiempo real",
+      "feature3": "Monedero seguro con protección líder en la industria",
+      "feature4": "Atención al cliente 24/7 y recursos educativos",
+      "title": "Empieza a operar hoy mismo",
+      "totalVolume": "Volumen total de operaciones",
+      "totalVolumeValue": "Más de 2.800 millones de dólares"
+    },
+    "searchCountries": "Buscar países...",
+    "searchLanguages": "Buscar idiomas...",
+    "selectCountry": "Selecciona tu país",
+    "selectLanguage": "Selecciona tu idioma",
+    "signIn": "Iniciar sesión",
+    "submit": "Crear cuenta",
+    "subtitle": "Únete a nuestra plataforma de operaciones hoy mismo",
+    "title": "Crear cuenta",
+    "traders": "Operadores activos",
+    "username": "Nombre de usuario",
+    "usernamePlaceholder": "Elige un nombre de usuario",
+    "volume": "Volumen total de operaciones",
+    "yourLocation": "Tu ubicación"
+  },
+  "Services": {
+    "assetAllocation": "Asignación de activos",
+    "badge": "QUIENES SOMOS",
+    "description": "Pretium imperdiet suscipit eu lobortis fermentum. Inceptos magna natoque mollis tristique lacinia potenti molestie venenatis. Viverra augue ridiculus quisque nibh bibendum quam.",
+    "discoverMore": "Descubre más",
+    "financialPlanning": "Planificación financiera",
+    "heading": "Explora nuestra gama completa de servicios de inversión hoy mismo.",
+    "imageAlt": "Consultoría empresarial profesional",
+    "marketInsights": "Perspectivas del mercado",
+    "playVideo": "Reproducir vídeo",
+    "portfolioManagement": "Gestión de carteras",
+    "professionalExpert": "EXPERTO PROFESIONAL",
+    "retirementSolutions": "Soluciones para la jubilación",
+    "riskAssessment": "Evaluación de riesgos",
+    "tradingConsulting": "Consultoría de trading",
+    "wealthAdvisory": "Asesoramiento patrimonial"
+  },
+  "shares": {
+    "paragraph1": "El comercio de acciones es el proceso de comprar y adquirir la propiedad de las acciones de una empresa y luego venderlas con fines de lucro. Normalmente, en esta situación, se establecería una cuenta 'nominal'. Con frecuencia, un corredor de bolsa realizará operaciones en su nombre por un cargo nominal. La mayoría del comercio de acciones ocurre en bolsas que listan empresas que cotizan públicamente. Esta estrategia implica la compra y venta directa de acciones a través de contratos al contado o a plazo.",
+    "paragraph2": "La inversión no tiene que limitarse a los índices bursátiles y a las acciones individuales. Además, puede invertir en fondos cotizados en bolsa (ETF) y fondos mutuos, o, aún más, diversificar su cartera comprando acciones y bonos.",
+    "paragraph3": "Alternativamente, puede comerciar con acciones mediante el uso de derivados como apuestas por diferencia (spread bets) y contratos por diferencia (CFDs). De esta manera, puede beneficiarse de la subida o bajada de los precios de las acciones tomando una posición larga o corta. Al comerciar con spread bets o CFDs, no adquiere la propiedad de las acciones subyacentes. Solo predice si los precios subirán o bajarán y toma una posición en consecuencia.",
+    "title": "¿Cómo Funciona?"
+  },
+  "Strategic": {
+    "accountableLeadership": {
+      "description": "Laoreet leo class duis ridiculus phasellus himenaeos habitasse sit litora pharetra quisque",
+      "title": "Liderazgo Responsable"
+    },
+    "integrityFirst": {
+      "description": "Laoreet leo class duis ridiculus phasellus himenaeos habitasse sit litora pharetra quisque",
+      "title": "Primero la Integridad"
+    },
+    "resultsOriented": {
+      "description": "Laoreet leo class duis ridiculus phasellus himenaeos habitasse sit litora pharetra quisque",
+      "title": "Orientado a Resultados"
+    },
+    "strategicThinking": {
+      "description": "Laoreet leo class duis ridiculus phasellus himenaeos habitasse sit litora pharetra quisque",
+      "title": "Pensamiento Estratégico"
+    }
+  },
+  "support": {
+    "aboutUs": {
+      "founded": {
+        "content": "Fundada por un equipo de antiguos operadores de Wall Street e ingenieros de Silicon Valley que vieron la necesidad de una mejor infraestructura para el trading minorista. Hemos crecido desde una pequeña startup hasta servir a más de 2 millones de operadores en todo el mundo.",
+        "title": "Fundada en 2019"
+      },
+      "globalReach": {
+        "content": "Con oficinas en Nueva York, Londres y Singapur, brindamos soporte 24/7 y mantenemos el cumplimiento normativo en múltiples jurisdicciones. Nuestro diverso equipo habla más de 20 idiomas.",
+        "title": "Alcance global"
+      },
+      "mission": {
+        "content": "Tradicionalmente, los mercados financieros han sido dominio de grandes instituciones y personas adineradas. Creemos que todos merecen acceso a las mismas potentes herramientas y oportunidades de trading. Nuestra plataforma combina tecnología de nivel institucional con una interfaz intuitiva, ofreciendo capacidades de trading profesionales a inversores minoristas de todo el mundo.",
+        "title": "Nuestra Misión"
+      },
+      "subtitle": "Construimos el futuro de los mercados financieros, poniendo herramientas de trading sofisticadas al alcance de todos.",
+      "title": "Sobre Nosotros",
+      "values": {
+        "innovation": {
+          "description": "Tecnología de vanguardia, mejora continua",
+          "title": "Innovación"
+        },
+        "security": {
+          "description": "Seguridad de nivel bancario, cumplimiento normativo",
+          "title": "Seguridad"
+        },
+        "title": "Nuestros Valores",
+        "transparency": {
+          "description": "Precios claros, sin comisiones ocultas, comunicación abierta",
+          "title": "Transparencia"
+        }
+      }
+    },
+    "contact": {
+      "address": "155 Newton Drive, Blackpool, Inglaterra, FY3 8LZ",
+      "email": "support@glenfordcap.com",
+      "phone": "+447424896957"
+    },
+    "contactUs": {
+      "businessInquiries": {
+        "availability": "Lunes a viernes, de 9:00 a 18:00 EST",
+        "description": "Colaboraciones, servicios institucionales y solicitudes de prensa",
+        "email": "Correo electrónico: business@platform.com",
+        "phone": "Teléfono: +1 (555) 123-4568",
+        "title": "Consultas comerciales"
+      },
+      "complianceLegal": {
+        "availability": "Respuesta en 48 horas",
+        "description": "Asuntos regulatorios y consultas legales",
+        "email": "Correo electrónico: legal@platform.com",
+        "title": "CumplimientoAsistencia y Legal"
+      },
+      "customerSupport": {
+        "availability": "Disponible 24/7",
+        "description": "Para problemas con la cuenta, preguntas sobre trading y soporte técnico",
+        "email": "Correo electrónico: support@platform.com",
+        "phone": "Teléfono: +1 (555) 123-4567",
+        "title": "Atención al cliente"
+      },
+      "form": {
+        "email": "Correo electrónico",
+        "emailPlaceholder": "your@email.com",
+        "message": "Mensaje",
+        "messagePlaceholder": "¿Cómo podemos ayudarle?",
+        "name": "Nombre",
+        "namePlaceholder": "Su nombre completo",
+        "sendButton": "Enviar mensaje",
+        "subject": "Asunto",
+        "subjects": {
+          "general": "Consulta general",
+          "media": "Solicitud de medios",
+          "partnership": "Asociación",
+          "support": "Soporte de Cuenta",
+          "technical": "Problema Técnico"
+        }
+      },
+      "getInTouch": "Contáctanos",
+      "offices": {
+        "london": "Londres",
+        "newYork": "Nueva York (Sede)",
+        "singapore": "Singapur",
+        "title": "Nuestras Oficinas"
+      },
+      "responseTimes": {
+        "businessInquiries": "Consultas Comerciales: En 1 día hábil",
+        "emailSupport": "Soporte por Correo Electrónico: En 2 horas para asuntos urgentes",
+        "liveChat": "Chat en Vivo: Respuesta Inmediata en horario laboral",
+        "phoneSupport": "Soporte Telefónico: Sin Tiempo de Espera, Disponibilidad 24/7",
+        "title": "Tiempos de Respuesta"
+      },
+      "sendMessage": "Envíanos un Mensaje",
+      "subtitle": "Estamos aquí para ayudarte. Contáctanos a través de cualquiera de estos canales y nos pondremos en contacto contigo a la brevedad.",
+      "title": "Contáctanos"
+    },
+    "helpCenter": {
+      "advancedTopics": {
+        "apiDocs": "Documentación de la API",
+        "marginTrading": "Explicación del trading con margen",
+        "optionsStrategies": "Guía de estrategias de opciones",
+        "taxReporting": "Herramientas de informes fiscales",
+        "title": "Temas avanzados"
+      },
+      "cantFind": {
+        "contactButton": "Contacta con el soporte técnico",
+        "description": "Nuestro equipo de soporte está aquí para ayudarte con cualquier pregunta que no esté incluida en nuestras preguntas frecuentes. Nos enorgullecemos de nuestros rápidos tiempos de respuesta y nuestra asistencia experta.",
+        "title": "¿No encuentras lo que buscas?"
+      },
+      "emailSupport": {
+        "description": "Respuestas detalladas en 2 horas",
+        "email": "support@platform.com",
+        "title": "Soporte por correo electrónico"
+      },
+      "faq": {
+        "fundAccount": {
+          "answer": "Puedes depositar fondos en tu cuenta mediante transferencia bancaria, tarjeta de crédito o depósito en criptomonedas. Las transferencias bancarias suelen tardar entre 1 y 2 días hábiles, mientras que los depósitos en criptomonedas suelen ser instantáneos tras la confirmación de la red.",
+          "question": "¿Cómo deposito fondos en mi cuenta?"
+        },
+        "insurance": {
+          "answer": "Sí, contamos con un seguro integral para activos digitales y riesgos operativos. Además, los depósitos fiduciarios están protegidos por el seguro de la FDIC hasta $250,000 por cuenta.",
+          "question": "¿Está asegurada mi cuenta?"
+        },
+        "title": "Preguntas frecuentes",
+        "tradingFees": {
+          "answer": "Nuestra estructura de comisiones es transparente y competitiva. Las comisiones por operaciones al contado comienzan en el 0.1% para los creadores y en el 0.15% para los tomadores. Las comisiones por operaciones de futuros son tan bajas como el 0.02% para los creadores. Se ofrecen descuentos por volumen para los operadores de alta frecuencia.",
+          "question": "¿Cuáles son sus comisiones por operaciones?"
+        },
+        "withdrawals": {
+          "answer": "Los retiros de criptomonedas se procesan en 30 minutos durante el horario comercial. Los retiros bancarios suelen tardar entre 1 y 3 días hábiles, dependiendo de su banco y ubicación.",
+          "question": "¿Cuánto tardan los retiros?"
+        }
+      },
+      "gettingStarted": {
+        "firstTrade": "Cómo realizar su primera operación",
+        "orderTypes": "Comprender los tipos de órdenes",
+        "title": "Primeros pasos",
+        "tutorials": "Tutoriales en video de la plataforma",
+        "verification": "Guía de verificación de cuenta"
+      },
+      "liveChat": {
+        "availability": "Disponible 24/7",
+        "description": "Obtenga ayuda instantánea de nuestro equipo de soporte",
+        "title": "Chat en vivo"
+      },
+      "phoneSupport": {
+        "description": "Hable directamente con nuestros expertos",
+        "phone": "+1 (555) 123-4567",
+        "title": "Soporte telefónico"
+      },
+      "subtitle": "Encuentre respuestas rápidas a preguntas frecuentes o reciba soporte personalizado de nuestro equipo.",
+      "title": "Centro de ayuda"
+    },
+    "hero": {
+      "button": "CONTÁCTENOS",
+      "description": "Contáctenos en cualquier momento si tiene algún problema con sus operaciones. Recibirá asistencia directa de nuestro equipo de expertos.",
+      "title": "Atención al cliente 24/5"
+    },
+    "security": {
+      "assetProtection": {
+        "coldStorage": {
+          "description": "El 95 % de los activos digitales se almacenan sin conexión en instalaciones seguras de nivel militar.",
+          "title": "Almacenamiento en frío"
+        },
+        "insurance": {
+          "description": "Póliza de seguro de 100 millones de dólares que cubre activos digitales y riesgos operativos.",
+          "title": "SeguridadCobertura de seguros"
+        },
+        "segregatedAccounts": {
+          "description": "Los fondos de los clientes se mantienen separados de los activos de la empresa en bancos regulados",
+          "title": "Cuentas segregadas"
+        },
+        "title": "Protección de activos"
+      },
+      "audits": {
+        "description": "Nuestros sistemas se someten a auditorías de seguridad trimestrales realizadas por firmas líderes en ciberseguridad, como Deloitte y PwC. Todos los informes de auditoría están disponibles previa solicitud.",
+        "title": "Auditorías de Seguridad"
+      },
+      "compliance": {
+        "cftc": "Registrado en la CFTC",
+        "cftcDesc": "Comisión de Comercio de Futuros de Materias Primas de EE. UU.",
+        "fca": "Regulado por la FCA",
+        "fcaDesc": "Autoridad de Conducta Financiera del Reino Unido",
+        "mas": "Con licencia de la MAS",
+        "masDesc": "Autoridad Monetaria de Singapur",
+        "title": "Cumplimiento Normativo"
+      },
+      "securityTips": {
+        "tip1": "Habilite la autenticación de dos factores en su cuenta",
+        "tip2": "Use una contraseña única y segura con un administrador de contraseñas",
+        "tip3": "Nunca comparta sus credenciales de inicio de sesión con nadie",
+        "tip4": "Revise periódicamente la actividad y los extractos de su cuenta",
+        "tip5": "Contacte con el servicio de asistencia inmediatamente si detecta actividad sospechosa",
+        "title": "Consejos de seguridad para la cuenta"
+      },
+      "subtitle": "Sus activos y datos están protegidos por medidas de seguridad de nivel institucional y normativas supervisión.",
+      "technicalSecurity": {
+        "encryption": {
+          "description": "Todos los datos cifrados en tránsito y en reposo mediante AES-256",
+          "title": "Cifrado de extremo a extremo"
+        },
+        "monitoring": {
+          "description": "Equipo de detección de amenazas y respuesta a incidentes en tiempo real",
+          "title": "Monitoreo 24/7"
+        },
+        "multiSig": {
+          "description": "Se requieren múltiples claves para todas las transacciones de criptomonedas",
+          "title": "Monederos multifirma"
+        },
+        "title": "Seguridad técnica"
+      },
+      "title": "Seguridad ante todo"
+    }
+  },
+  "terms": {
+    "section1": {
+      "p1": "1.1. {companyName} Limited (el {companyName}) es un proveedor de servicios autorizado que ofrece servicios de inversión y de soporte, tal como se definen en este Acuerdo, a través de su sistema electrónico en línea (las \"Plataformas de Trading\").",
+      "p2": "1.2. Lo siguiente describe los términos y condiciones bajo los cuales {companyName} Limited ({companyName}) ofrece acceso a su sitio web a usted, el cliente (\"usted\" o \"usuario\" o \"cliente\"), y el uso de sus servicios (\"Acuerdo\", \"Acuerdo de Usuario\" o \"Servicios en Línea\").",
+      "p3": "1.3. {companyName} es propiedad de y está operado por {companyName} Limited. Este Acuerdo describe los términos, condiciones y riesgos que se aplican a su uso de nuestros servicios disponibles en el dominio y subdominios de {companyName} Limited. Si tiene alguna pregunta respecto a este Acuerdo, por favor contacte con el Servicio de Atención al Cliente. Antes de convertirse en cliente de {companyName} Limited, debe leer, aceptar y cumplir todos los términos y condiciones contenidos en este Acuerdo de Usuario, sin modificaciones, incluidos los términos y condiciones expresamente establecidos a continuación y aquellos incorporados por referencia. Al continuar accediendo o utilizando el sitio web, usted acepta quedar vinculado por los Términos de este Acuerdo, en la medida en que le sean aplicables.",
+      "title": "1. INTRODUCCIÓN – SOBRE NOSOTROS"
+    },
+    "section10": {
+      "p1": "10.1. Puede realizar una Orden a través de la plataforma de negociación de la Compañía. Una vez que la Compañía reciba sus instrucciones u Órdenes, estas no podrán revocarse, salvo con su consentimiento por escrito.",
+      "title": "10. ÓRDENES – INSTRUCCIONES Y FUNDAMENTOS DE LAS TRANSACCIONES"
+    },
+    "section11": {
+      "p1": "11.1. Las confirmaciones de todas las transacciones ejecutadas en su Cuenta de Negociación durante el día de negociación estarán disponibles en su cuenta en línea a través de la Plataforma de Negociación tan pronto como se complete la transacción.",
+      "title": "11. CONFIRMACIONES"
+    },
+    "section12": {
+      "p1": "12.1. La Compañía indicará los precios a los que está dispuesta a cooperar con usted.",
+      "title": "12. PRECIO"
+    },
+    "section13": {
+      "p1": "13.1. La Compañía se reserva el derecho de rechazar, en cualquier momento, por cualquier motivo y sin previo aviso ni explicación, A su entera discreción, la ejecución de cualquier Orden.",
+      "title": "13. NEGATIVA A EJECUTAR ÓRDENES"
+    },
+    "section14": {
+      "p1": "14.1. La Compañía tiene derecho a cancelar una transacción si tiene motivos o pruebas suficientes para creer que se debió a fraude o actividades ilegales.",
+      "title": "14. CANCELACIÓN DE TRANSACCIONES"
+    },
+    "section15": {
+      "p1": "15.1. La Compañía comienza a liquidar todas las transacciones una vez completadas.",
+      "title": "15. FINALIZACIÓN DE TRANSACCIONES"
+    },
+    "section16": {
+      "p1": "16.1. La Compañía ofrece una serie de atractivos programas de bonificación a sus clientes nuevos y existentes que activen su cuenta de trading.",
+      "title": "16. POLÍTICA DE BONOS Y PROMOCIONES"
+    },
+    "section17": {
+      "p1": "17.1. Los fondos de su propiedad que se utilicen para fines comerciales se mantendrán en una cuenta en cualquier banco o institución financiera que la Compañía designe para aceptar fondos.",
+      "title": "17. FONDOS DEL CLIENTE"
+    },
+    "section18": {
+      "p1": "18.1. Usted reconoce y acepta que cualquier cuenta comercial abierta con la Compañía en la que no haya realizado operaciones ni depósitos durante un período superior a sesenta (60) días naturales será clasificada por la Compañía como una Cuenta Inactiva.",
+      "title": "18. PROCEDIMIENTO PARA CUENTAS INACTIVAS"
+    },
+    "section19": {
+      "p1": "19.1. Usted acepta pagar nuestras tarifas, según lo acordado con usted en cada momento, cualquier tarifa u otro cargo impuesto por la entidad de compensación, e intereses sobre cualquier monto adeudado a las tasas que apliquemos en ese momento.",
+      "title": "19. COSTOS Y TARIFAS"
+    },
+    "section2": {
+      "p1": "2.1. Puede comunicarse con nosotros por escrito (incluido el fax), por correo electrónico u otros medios electrónicos, o verbalmente (incluido el teléfono). El idioma de comunicación será el inglés y recibirá documentos y otra información de nuestra parte en inglés. Sin embargo, si es necesario y para su comodidad, nos esforzaremos por comunicarnos con usted en otros idiomas. Al aceptar los Términos de este Acuerdo, usted acepta los siguientes términos y condiciones y todas las políticas incluidas en el sitio web oficial de {companyWebsite}.",
+      "p2": "2.2. La Compañía tiene la libertad de utilizar cualquier idea, concepto, conocimiento, técnica o información contenida en sus comunicaciones para cualquier propósito, incluyendo, entre otros, el desarrollo y la comercialización de productos. La Compañía supervisa sus comunicaciones para evaluar la calidad del servicio que recibe, su cumplimiento de este Acuerdo, la seguridad del Sitio Web o por otras razones. Usted acepta que dichas actividades de supervisión no le otorgan ninguna causa de acción ni otros derechos con respecto a cómo la Compañía supervisa sus comunicaciones.",
+      "title": "2. CONTÁCTENOS"
+    },
+    "section20": {
+      "p1": "20.1. Cabe señalar que la Compañía y cualquier persona asociada a ella realizarán transacciones de buena fe y con la debida diligencia, pero no serán responsables de ninguna omisión, omisión intencional o fraude por parte de ninguna persona, firma o empresa.",
+      "title": "20. RESPONSABILIDAD E INDEMNIZACIÓN DE LA COMPAÑÍA"
+    },
+    "section21": {
+      "p1": "21.1. Este Acuerdo tiene una vigencia indefinida a menos que la Compañía, usted o ambos lo rescindan.",
+      "title": "21. DURACIÓN DEL ACUERDO Y MODIFICACIONES DEL MISMO"
+    },
+    "section22": {
+      "p1": "22.1. El objetivo de la Compañía es proporcionar la liquidez comercial más eficiente disponible mediante la transmisión continua de precios negociados para la mayoría de los instrumentos financieros que ofrecemos en la plataforma de negociación.",
+      "title": "22. OPERACIONES INADECUADAS O ABUSIVAS Y/O ACTIVIDADES NO AUTORIZADAS"
+    },
+    "section23": {
+      "p1": "23.1. Se podrá cobrar una comisión diaria por cada posición abierta de CFD de Forex al cierre de la jornada de negociación de la Compañía con respecto a dicho CFD.",
+      "title": "23. TÉRMINOS DE OPERACIÓN DE CFD"
+    },
+    "section24": {
+      "p1": "24.1. Usted tiene derecho a rescindir el Acuerdo notificándoselo por escrito a la Compañía con al menos siete (7) días de antelación, especificando la fecha de rescisión.",
+      "title": "24. RESCISIÓN"
+    },
+    "section25": {
+      "p1": "25.1. Los siguientes eventos constituyen Casos de Incumplimiento en cuyo caso la Compañía tiene derecho a ejercer sus derechos.",
+      "title": "25. CASOS DE VALIDEZ INCOMPLETA Y DERECHOS EN CASO DE INCUMPLIMIENTO"
+    },
+    "section26": {
+      "p1": "26.1. Cabe señalar que, dependiendo de las condiciones y fluctuaciones del mercado, el valor de los Instrumentos Financieros puede aumentar, disminuir o incluso llegar a cero.",
+      "title": "26. RECONOCIMIENTO DEL RIESGO"
+    },
+    "section27": {
+      "p1": "27.1. La Compañía no tendrá la obligación de divulgarle información alguna ni de tenerla en cuenta al tomar decisiones o acciones en su nombre, a menos que se acuerde y especifique lo contrario en este Acuerdo.",
+      "title": "27. INFORMACIÓN CONFIDENCIAL"
+    },
+    "section28": {
+      "p1": "28.1. Salvo que se indique expresamente lo contrario, cualquier notificación, instrucción, permiso, solicitud u otra comunicación que proporcione a la Compañía en virtud del Acuerdo deberá realizarse por escrito.",
+      "title": "28. NOTIFICACIONES"
+    },
+    "section29": {
+      "p1": "29.1. Usted reconoce que la Compañía puede grabar conversaciones telefónicas entre usted y la Compañía sin usar una señal de advertencia.",
+      "title": "29. GRABACIÓN DE LLAMADAS TELEFÓNICAS"
+    },
+    "section3": {
+      "p1": "3.1. Los Servicios están disponibles y reservados únicamente para personas o entidades que hayan celebrado un contrato legalmente vinculante según la legislación aplicable en su país de residencia. Sin perjuicio de los términos a continuación, nuestros Servicios sonNo disponible para menores de 18 años o menores de edad (\"Menores\"). Para evitar cualquier duda, declinamos cualquier responsabilidad por el uso no autorizado de nuestros Servicios por parte de Menores, de cualquier manera.",
+      "p2": "3.2. Sin perjuicio de lo anterior, nuestros Servicios no están disponibles en regiones donde su uso es ilegal, y la Compañía se reserva el derecho de denegar o cancelar el acceso a sus Servicios a cualquier persona a su entera discreción. Para evitar cualquier duda, el hecho de poder acceder a nuestro sitio web no implica necesariamente que nuestros servicios o sus actividades a través de él sean legales según las leyes, regulaciones o directivas aplicables en su país de residencia.",
+      "title": "3. DERECHO DE MEMBRESÍA"
+    },
+    "section30": {
+      "p1": "30.1. Sujeto a la normativa aplicable, la Compañía debe contar con mecanismos para gestionar los conflictos de intereses entre la Compañía y sus clientes. CONFLICTO DE INTERESES",
+      "title": "30. CONFLICT OF INTEREST"
+    },
+    "section31": {
+      "p1": "31.1. Usted reconoce que la Compañía no le ha hecho ninguna declaración que le induzca o convenza de alguna manera a celebrar el Acuerdo.",
+      "title": "31. PUNTOS BÁSICOS"
+    },
+    "section32": {
+      "p1": "32.1. Este Acuerdo y todas las relaciones comerciales entre usted y la Compañía se regirán por las leyes de Santa Lucía y el tribunal competente para resolver cualquier disputa que pueda surgir entre ellos será el Tribunal de Distrito del distrito donde la Compañía tenga su sede.",
+      "title": "32. LEY APLICABLE, JURISDICCIÓN"
+    },
+    "section4": {
+      "p1": "4.1. Cuenta significa una cuenta personal de operaciones que el Cliente mantiene con la Compañía y a la que se le asigna un número de cuenta específico.",
+      "p2": "4.2. Códigos de acceso se refiere al nombre de usuario y la contraseña que la Compañía proporciona al Cliente para acceder a su sitio web.",
+      "p3": "4.3. Acuerdo se refiere a estos Términos de uso de los servicios ofrecidos por la Compañía.",
+      "p4": "4.4. Saldo se refiere al importe mantenido en nombre del Cliente en su Cuenta durante cualquier período de tiempo.",
+      "p5": "4.5. Día hábil se refiere a un día que no sea sábado ni domingo, festivo en Belice ni ningún otro día festivo anunciado por la Compañía en su sitio web.",
+      "p6": "4.6. Autorización LSP se refiere a la licencia obtenida por la Compañía de la IFSC, con sus modificaciones periódicas, que especifica los servicios de inversión y auxiliares que la Compañía está autorizada a prestar.",
+      "p7": "4.7. CFD significa contrato por diferencia, que consiste en un acuerdo (contrato) para intercambiar la diferencia en el valor de una divisa, acción de materia prima o índice específico entre el momento de apertura y el momento de cierre del contrato. Las ganancias o pérdidas se determinan en función de la evolución de los precios de los instrumentos subyacentes en relación con el precio en el momento de la celebración del contrato.",
+      "title": "4. DEFINICIONES – INTERPRETACIÓN"
+    },
+    "section5": {
+      "p1": "5.1. Los siguientes son los servicios de inversión que la Compañía está autorizada a prestar en virtud de su autorización LSP y están sujetos a este Acuerdo. Cabe aclarar que la Compañía opera únicamente sobre la base de la ejecución y no ofrece asesoramiento sobre los méritos de Transacciones específicas ni sus consecuencias fiscales. Usted acepta toda la responsabilidad con respecto a cualquier estrategia de inversión, transacción o inversión, los costes fiscales, así como por cualquier consecuencia derivada de cualquier transacción que realice, y la Compañía no será responsable y usted no deberá confiar en ella para lo anterior.",
+      "title": "5. PRESTACIÓN DE SERVICIOS"
+    },
+    "section6": {
+      "p1": "6.1. Al registrarse para los Servicios mencionados, la Compañía le solicitará cierta información de identificación. Usted reconoce su disposición a compartir con la Compañía cierta información personal que utiliza para verificar su identidad. Esta información se recopila de acuerdo con nuestros estrictos procedimientos de verificación, que se utilizan para prevenir transacciones internacionales de lavado de dinero y garantizar la seguridad de las actividades comerciales de nuestros clientes en todas las etapas, y está sujeta a la Política de Privacidad de la Compañía.",
+      "title": "6. INFORMACIÓN Y REQUISITOS PARA ABRIR UNA CUENTA"
+    },
+    "section7": {
+      "p1": "7.1. Usted declara y garantiza que cualquier fondo transferido a la Compañía con fines comerciales le pertenece exclusivamente y no está sujeto a ningún gravamen, carga, derecho de retención ni ninguna otra carga.",
+      "title": "7. GARANTÍAS EN NOMBRE DEL CLIENTE"
+    },
+    "section8": {
+      "p1": "8.1. La Compañía le proporcionará códigos de acceso para acceder en línea a su sitio web y/o plataformas de negociación, lo que le permitirá realizar órdenes para cualquier instrumento financiero disponible en la Compañía y realizar transacciones con ella.",
+      "title": "8. COMERCIO ELECTRÓNICO"
+    },
+    "section9": {
+      "p1": "9.1. TA través de uno o más de sus Servicios, la Compañía pone a su disposición una amplia gama de información financiera generada internamente por agentes, proveedores o socios (\"Proveedores Externos\").",
+      "title": "9. INFORMACIÓN FINANCIERA"
+    },
+    "title": "Términos y Condiciones"
+  },
+  "tradingNews": {
+    "categories": {
+      "existAtAll": "Existe",
+      "model3": "Modelo 3",
+      "projections": "Proyecciones"
+    },
+    "headlines": {
+      "amdStock": "Las acciones de AMD se disparan un 30% mientras OpenAI busca una participación del 10%. Por qué esta colaboración amenaza a Nvidia.",
+      "btcUsd": "BTC/USD: Bitcoin alcanza un récord de $125,000 a pesar del cierre del gobierno. Bienvenidos, Uptober.",
+      "gbpUsd": "GBP/USD: La libra lucha por salir del rango de corto plazo, cotizando cerca de $1.35. ¿Qué sigue?",
+      "ixic": "IXIC: El Nasdaq Composite sube un 0.7% hasta un nuevo máximo de cierre, seguido del S&P 500.",
+      "usdJpy": "USD/JPY: El dólar supera los ¥150, el yen se desploma tras la victoria de Takaichi, partidario del estímulo. ¿Adiós a las subidas de tipos?",
+      "xauUsd": "XAU/USD: El oro supera los 3.900 $ mientras los operadores se lanzan a la inversión refugio ante un panorama sombrío"
+    },
+    "timestamps": {
+      "2daysAgo": "hace 2 días",
+      "3daysAgo": "hace 3 días",
+      "4daysAgo": "hace 4 días"
+    },
+    "title": "Noticias principales"
   }
 }

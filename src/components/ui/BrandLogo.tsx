@@ -1,6 +1,6 @@
 'use client'
 
-import { useCompanyInfo } from "@/src/hooks/use-company-info"
+import { useCompanyInfo } from "@/hooks/use-company-info"
 import Image from "next/image"
 
 export default function BrandLogo() {

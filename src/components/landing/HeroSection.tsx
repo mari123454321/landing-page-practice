@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import { Button } from "@/src/components/ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowRight, Shield, Zap } from "lucide-react";
-import SectionBadge from "@/src/components/ui/SectionBadge";
-import HeroBackground from "@/src/components/Landing/HeroBackground";
+import SectionBadge from "@/components/ui/SectionBadge";
+import HeroBackground from "@/components/Landing/HeroBackground";
 import { getTranslations } from "next-intl/server";
 
 

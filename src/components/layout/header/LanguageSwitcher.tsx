@@ -1,5 +1,5 @@
 'use client';
-import { Button } from "@/src/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
@@ -33,7 +33,7 @@ export default function LanguageSwitcher() {
             {isOpen && <div className="fixed inset-0 w-screen h-screen z-10" onClick={() => setIsOpen(false)}></div>}
             <div className="relative">
                 <Button
-                    className="outline-1 focus:outline-white min-w-full md:min-w-fit"
+                    className="focus:outline-1 focus:outline-white min-w-full md:min-w-fit"
                     onClick={() => setIsOpen(prev => !prev)}
                 >
                     <Globe />

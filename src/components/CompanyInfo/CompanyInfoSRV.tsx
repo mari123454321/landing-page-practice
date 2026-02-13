@@ -1,5 +1,5 @@
-import getLandingCompanyInfo from "@/src/api/company/getLandingCompanyInfo";
-import CompanyInfoClient from "./CompanyInfoClient";
+import getLandingCompanyInfo from "@/api/company/getLandingCompanyInfo";
+import CompanyInfoClient from "@/components/CompanyInfo/CompanyInfoClient";
 
 
 export default async function CompanyInfoSRV() {

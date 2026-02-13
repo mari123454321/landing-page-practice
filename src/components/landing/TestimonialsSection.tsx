@@ -1,5 +1,5 @@
-import SectionBadge from "@/src/components/ui/SectionBadge";
-import { TestimonialCard } from '@/src/components/ui/TestimonialCard';
+import SectionBadge from "@/components/ui/SectionBadge";
+import { TestimonialCard } from '@/components/ui/TestimonialCard';
 import { getTranslations } from 'next-intl/server';
 
 

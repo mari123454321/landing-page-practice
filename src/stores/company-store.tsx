@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { LandingCompanyInfo } from "@/src/api/types/company";
+import { LandingCompanyInfo } from "@/api/types/company";
 
 export type CompanyState = {
   companyInfo: LandingCompanyInfo | null;

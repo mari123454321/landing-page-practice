@@ -1,5 +1,5 @@
-import { EnvCompanyInfo } from "../consts/EnvCompanyInfo";
-import { LandingCompanyInfo } from "../types/company";
+import { EnvCompanyInfo } from "@/api/consts/EnvCompanyInfo";
+import { LandingCompanyInfo } from "@/api/types/company";
 
 export default async function getLandingCompanyInfo(): Promise<LandingCompanyInfo> {
   const TRANSLATOR_X_SECRET_KEY = process.env.TRANSLATOR_X_SECRET_KEY

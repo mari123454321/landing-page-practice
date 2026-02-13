@@ -1,7 +1,7 @@
 "use client";
 
-import { FormattedCompanyInfo } from "@/src/api/types/company";
-import { useCompanyStore } from "@/src/stores/company-store";
+import { FormattedCompanyInfo } from "@/api/types/company";
+import { useCompanyStore } from "@/stores/company-store";
 
 export function useCompanyInfo(): FormattedCompanyInfo | null {
   const companyInfo = useCompanyStore((state) => state.companyInfo);

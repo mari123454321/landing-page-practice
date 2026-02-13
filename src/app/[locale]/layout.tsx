@@ -1,11 +1,9 @@
-import { Inter, Lora, Playfair_Display, Space_Mono } from "next/font/google";
-import "@/src/styles/globals.css";
+import { Inter } from "next/font/google";
+import "@/styles/globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { routing } from "@/src/i18n/routing";
+import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import CompanyInfoSRV from "@/src/components/CompanyInfo/CompanyInfoSRV";
-import Header from "@/src/components/Layout/Header/Header";
-import Footer from "@/src/components/Layout/Footer/Footer";
+import CompanyInfoSRV from "@/components/CompanyInfo/CompanyInfoSRV";
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -32,9 +30,7 @@ export default async function RootLayout({
       <body className={`bg-background text-foreground ${inter.className}`}>
         <CompanyInfoSRV />
         <NextIntlClientProvider>
-          <Header />
           {children}
-          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

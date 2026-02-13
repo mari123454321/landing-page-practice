@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import { Button } from '@/src/components/ui/button';
-import SectionBadge from "@/src/components/ui/SectionBadge";
+import { Button } from '@/components/ui/button';
+import SectionBadge from "@/components/ui/SectionBadge";
 import { getTranslations } from 'next-intl/server';
 import { Globe, Landmark, Layers, LucideIcon, TrendingUp } from 'lucide-react';
-import { FeatureCard } from '@/src/components/ui/FeatureCard';
+import { FeatureCard } from '@/components/ui/FeatureCard';
 
 const icons: LucideIcon[] = [Globe, Landmark, Layers, TrendingUp]
 
