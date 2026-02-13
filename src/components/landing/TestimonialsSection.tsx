@@ -1,41 +1,43 @@
-import { TESTIMONIALS, TESTIMONIALS_SECTION } from '@/src/lib/constants/landing'
 import SectionBadge from "@/src/components/ui/SectionBadge";
+import { TestimonialCard } from '@/src/components/ui/TestimonialCard';
+import { getTranslations } from 'next-intl/server';
 
 
-function TestimonialsSection() {
+export default async function TestimonialsSection() {
+    const t = await getTranslations('testimonials')
+    const testimonials = [
+        {
+            name: t('items.sarah.name'),
+            role: t('items.sarah.role'),
+            content: t('items.sarah.content')
+        },
+        {
+            name: t('items.michael.name'),
+            role: t('items.michael.role'),
+            content: t('items.michael.content')
+        },
+        {
+            name: t('items.emily.name'),
+            role: t('items.emily.role'),
+            content: t('items.emily.content')
+        }
+    ];
+
     return (
         <section className=" mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl ">
-            <SectionBadge text={TESTIMONIALS_SECTION.badge} className="mx-auto" />
+            <SectionBadge text={t('badge')} className="mx-auto" />
             <h1 className="title-l text-center mb-6">
-                {TESTIMONIALS_SECTION.heading}
+                {t('heading')}
             </h1>
             <p className="text-center mx-auto max-w-2xl text-muted-foreground mb-16">
-                {TESTIMONIALS_SECTION.description}
+                {t('description')}
             </p>
             <div className="grid md:grid-cols-3 gap-8">
-                {TESTIMONIALS.map((testimonial, index) => (
-                    <div
-                        key={index}
-                        className="glass rounded-xl p-8 hover:border-primary/30 transition-all duration-300"
-                    >
-                        {/* content */}
-                        <p className="text-foreground mb-6 leading-relaxed">"{testimonial.content}"</p>
-
-                        {/* author */}
-                        <div className="flex items-center gap-4">
-                            <div className="w-12 h-12 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center">
-                                <span className="text-primary font-semibold">{testimonial.name[0]}</span>
-                            </div>
-                            <div>
-                                <p className="text-foreground font-medium">{testimonial.name}</p>
-                                <p className="text-muted-foreground text-sm">{testimonial.role}</p>
-                            </div>
-                        </div>
-                    </div>
+                {testimonials.map((testimonial, index) => (
+                    <TestimonialCard key={index} content={testimonial.content} name={testimonial.name} role={testimonial.role} />
                 ))}
             </div>
         </section>
     )
 }
 
-export default TestimonialsSection

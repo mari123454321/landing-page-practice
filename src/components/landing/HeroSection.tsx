@@ -14,14 +14,13 @@ export default async function HeroSection() {
         t("features.1"),
         t("features.2"),
     ]
-
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden ">
             <HeroBackground />
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 items-center gap-12 lg:text-left
                             col-span-1 text-center">
                 <div className="lg:inline flex flex-col items-center">
-                    <SectionBadge text={t("badge")} icon={<Shield className="w-4 h-4 text-primary" />} />
+                    <SectionBadge text={t("badge")} icon={<Shield className="w-4 h-4 text-primary" />} className='mt-24 lg:28'/>
                     <h1 className="title-xl mb-8 line-height ">
                         {t("headingStart")}
                         {" "}
@@ -30,7 +29,7 @@ export default async function HeroSection() {
                     <p className="text-muted-foreground text-lg sm:text-xl max-w-3xl mb-10 leading-relaxed">
                         {t("description")}
                     </p>
-                    <div className="flex flex-wrap justify-items-center gap-3 mb-8">
+                    <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-8">
                         {featuresArray.map((feature) => (
                             <div key={feature} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-secondary/30 border border-border/30">
                                 <Zap className="w-4 h-4 text-primary" />

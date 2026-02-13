@@ -33,13 +33,13 @@ export default function LanguageSwitcher() {
             {isOpen && <div className="fixed inset-0 w-screen h-screen z-10" onClick={() => setIsOpen(false)}></div>}
             <div className="relative">
                 <Button
-                    className="outline-1 focus:outline-white relative"
+                    className="outline-1 focus:outline-white min-w-full md:min-w-fit"
                     onClick={() => setIsOpen(prev => !prev)}
                 >
                     <Globe />
                     {languages.find(lang => lang.code === locale)?.name || 'Language'}
                 </Button>
-                <div className={`glass absolute z-20 rounded-md right-0 top-12 min-w-40 transition-opacity ${isOpen ? "opacity-100" : "opacity-0"}`}>
+                <div className={`glass absolute z-20 rounded-md right-0 top-12 min-w-40 transition-opacity duration-300 ease-in-out ${isOpen ? "opacity-100 " : "opacity-0"}`}>
                     {languages.map(language => (
                         <button
                             key={language.code}
